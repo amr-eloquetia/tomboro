@@ -1,9 +1,9 @@
-# *
-# !example/
-# !.gitignore
-# !public/
-# !public/storage/
-# !public/storage/prize_images/
-# !public/storage/prize_images/*
-# !public/storage/user_avatars/
-# !public/storage/user_avatars/*
+*
+!example/
+!.gitignore
+!public/
+!public/storage/
+!public/storage/prize_images/
+!public/storage/prize_images/*
+!public/storage/user_avatars/
+!public/storage/user_avatars/*

@@ -9,7 +9,7 @@
 !public/storage/user_avatars/
 !public/storage/user_avatars/*
 /vendor
-.env
+# .env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml

@@ -1,13 +1,4 @@
 /node_modules
-# /public/hot
-# /public/storage
-/storage/*.key
-!public/
-!public/storage/
-!public/storage/prize_images/
-!public/storage/prize_images/*
-!public/storage/user_avatars/
-!public/storage/user_avatars/*
 /vendor
 # .env
 .env.backup

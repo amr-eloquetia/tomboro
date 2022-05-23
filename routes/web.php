@@ -29,6 +29,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 // Route::get('/single-contest', [PagesController::class, 'singleContest'])->name('singleContest');
 Route::get('/lottery-details', [TicketsController::class, 'index'])->name('lotteryDetails');
 Route::get('/buy-tickets/{id}', [TicketsController::class, 'show'])->name('buy.tickets');
+Route::put('/user-panel', [TicketsController::class, 'update'])->name('buy.tickets.update');
 
 Route::get('/winners', [PagesController::class, 'winners'])->name('winners');
 Route::get('/about-us', [PagesController::class, 'aboutUs'])->name('aboutUs');

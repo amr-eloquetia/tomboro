@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Prizes;
 use App\Models\Tickets;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PagesController extends Controller
 {
@@ -31,7 +32,8 @@ class PagesController extends Controller
     }
     public function userPanel()
     {
-        return view('Frontend.customer.userPanel');
+        $my_tickets = Tickets::where('owner_id', Auth::user()->id)->get();
+        return view('Frontend.customer.userPanel',compact('my_tickets'));
     }
     public function userInfo()
     {

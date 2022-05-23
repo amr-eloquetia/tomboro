@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Prizes;
 use App\Models\Tickets;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TicketsController extends Controller
 {
@@ -109,9 +110,19 @@ class TicketsController extends Controller
      * @param  \App\Models\Tickets  $tickets
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Tickets $tickets)
+    public function update(Request $request)
     {
-        //
+        $data = $request->input();
+        $user_id = Auth::user()->id;
+        $ticket_numbers = $data['ticket_number'];
+        foreach ($ticket_numbers as $key => $value) {
+            $ticket = Tickets::where('ticket_number', $value)->first();
+            $ticket->owner_id = $user_id;
+            $ticket->save();
+        }
+        return view('Frontend.customer.userPanel')->with('success', 'Tickets bought successfully!');
+
+
     }
 
     /**

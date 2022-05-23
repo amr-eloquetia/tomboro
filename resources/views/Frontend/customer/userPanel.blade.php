@@ -29,8 +29,11 @@
                 </div><!-- user-card end -->
                 <div class="user-action-card">
                     <ul class="user-action-list">
-                        <li class="active"><a href="{{ URL::route('userPanel') }}">My Tickets <span
-                                    class="badge">04</span></a></li>
+                        <li class="active"><a href="{{ URL::route('userPanel') }}">My Tickets
+                                @if (count($my_tickets) > 0)
+                                <span class="badge">{{ count($my_tickets) }}</span>
+                                @endif
+                            </a></li>
                         <li><a href="{{ URL::route('userInfo') }}">Personal Information</a></li>
                         <li><a href="{{ URL::route('userTransactions') }}">Transactions</a></li>
                         <li><a href="{{ URL::route('contact') }}">Help Center</a></li>
@@ -50,60 +53,21 @@
                 <div class="upcoming-draw-wrapper">
                     <h3 class="title">Upcoming Draw</h3>
                     <div class="draw-ticket-slider">
+                        @foreach ($my_tickets as $key => $ticket)
+
+
                         <div class="draw-single-ticket">
                             <div class="draw-single-ticket__header">
-                                <div class="left">Tickey#1</div>
-                                <div class="right">Contest No:R9D</div>
+                                <div class="left">Ticket{{ $key + 1 }}</div>
+                                <div class="right">Contest No:{{ $ticket->prize_id }}</div>
                             </div>
-                            <div class="circle-divider"><img
-                                    src="{{ URL::asset('assets/images/elements/circle-border.png') }}" alt="image">
-                            </div>
-                            <ul class="ticket-numbers-list">
-                                <li>23</li>
-                                <li>22</li>
-                                <li>19</li>
-                                <li>9</li>
-                                <li>50</li>
-                                <li>11</li>
-                                <li>12</li>
-                            </ul>
+
+                            <p>
+                                {{ $ticket->ticket_number }}
+                            </p>
                         </div><!-- draw-single-ticket end -->
-                        <div class="draw-single-ticket">
-                            <div class="draw-single-ticket__header">
-                                <div class="left">Tickey#1</div>
-                                <div class="right">Contest No:R9D</div>
-                            </div>
-                            <div class="circle-divider"><img
-                                    src="{{ URL::asset('assets/images/elements/circle-border.pn') }}g" alt="image">
-                            </div>
-                            <ul class="ticket-numbers-list">
-                                <li>23</li>
-                                <li>22</li>
-                                <li>19</li>
-                                <li>9</li>
-                                <li>50</li>
-                                <li>11</li>
-                                <li>12</li>
-                            </ul>
-                        </div><!-- draw-single-ticket end -->
-                        <div class="draw-single-ticket">
-                            <div class="draw-single-ticket__header">
-                                <div class="left">Tickey#3</div>
-                                <div class="right">Contest No:R9D</div>
-                            </div>
-                            <div class="circle-divider"><img
-                                    src="{{ URL::asset('assets/images/elements/circle-border.png') }}" alt="image">
-                            </div>
-                            <ul class="ticket-numbers-list">
-                                <li>23</li>
-                                <li>22</li>
-                                <li>19</li>
-                                <li>9</li>
-                                <li>50</li>
-                                <li>11</li>
-                                <li>12</li>
-                            </ul>
-                        </div><!-- draw-single-ticket end -->
+
+                        @endforeach
                     </div><!-- draw-ticket-slider end -->
                 </div><!-- upcoming-draw-wrapper end -->
                 <div class="past-draw-wrapper">
@@ -119,102 +83,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="fail">No Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="fail">No Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="fail">No Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list win-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="win">Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="fail">No Win</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="date">02.04.2020</span></td>
-                                    <td><span class="contest-no">R9D</span></td>
-                                    <td>
-                                        <ul class="number-list">
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
-                                            <li>5</li>
-                                            <li>6</li>
-                                            <li>7</li>
-                                        </ul>
-                                    </td>
-                                    <td><span class="fail">No Win</span></td>
-                                </tr>
                                 <tr>
                                     <td><span class="date">02.04.2020</span></td>
                                     <td><span class="contest-no">R9D</span></td>

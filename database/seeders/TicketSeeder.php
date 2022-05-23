@@ -21,7 +21,8 @@ class TicketSeeder extends Seeder
                 'ticket_number' => random_int(100000, 999999),
                 'price' => '10',
                 'availability' => '1',
-                'prize_id' => '1'
+                'prize_id' => '1',
+                'owner_id' => '0'
             ]);
         }
         for ($i = 0; $i < 12; $i++) {
@@ -29,7 +30,9 @@ class TicketSeeder extends Seeder
                 'ticket_number' => random_int(100000, 999999),
                 'price' => '5',
                 'availability' => '1',
-                'prize_id' => '2'
+                'prize_id' => '2',
+                'owner_id' => '0'
+
             ]);
         }
         for ($i = 0; $i < 12; $i++) {
@@ -37,7 +40,9 @@ class TicketSeeder extends Seeder
                 'ticket_number' => random_int(100000, 999999),
                 'price' => '7',
                 'availability' => '1',
-                'prize_id' => '3'
+                'prize_id' => '3',
+                'owner_id' => '0'
+
             ]);
         }
     }

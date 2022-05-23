@@ -19,6 +19,7 @@ class CreateTicketsTable extends Migration
             $table->string('price');
             $table->boolean('availability')->default(0);
             $table->string('prize_id');
+            $table->string('owner_id');
             $table->timestamps();
         });
     }

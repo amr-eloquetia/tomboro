@@ -153,6 +153,8 @@ class PrizesController extends Controller
 
         $name = $request->file('images')->getClientOriginalName();
         $path = $request->file('images')->storeAs('public/prize_images', $name);
+        $deleteOldImg = Media::where('prize_id', $prize->id)->first();
+        $deleteOldImg->delete();
         $media = Media::create([
             'path' => "prize_images/$name",
             'prize_id' => $prize->id

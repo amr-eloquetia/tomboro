@@ -39,19 +39,19 @@
                                         alt="image">
                                 </div>
                                 @endforeach
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/b1.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/b1.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/b1.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
                             </div><!-- contest-cart__thumb-slider end -->
                             <div class="contest-cart__nav-slider">
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/s1.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/s2.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('assets/images/contest/s3.png') }}"
+                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
                             </div><!-- contest-cart__nav-slider end -->
                         </div>
@@ -114,7 +114,7 @@
                         <div class="tab-pane fade show active" id="description" role="tabpanel"
                             aria-labelledby="description-tab">
                             <div class="content-block">
-                                <h3 class="title">Some Title</h3>
+                                <h3 class="title"></h3>
                                 <p>{{ $prize->description }}</p>
                             </div><!-- content-block end -->
                         </div>

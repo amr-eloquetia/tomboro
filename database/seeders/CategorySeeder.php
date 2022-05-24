@@ -22,5 +22,21 @@ class CategorySeeder extends Seeder
             'name' => 'bikes',
             'parent_id' => '1'
         ]);
+        Category::create([
+            'name' => 'Phones',
+            'parent_id' => '1'
+        ]);
+        Category::create([
+            'name' => 'Watches',
+            'parent_id' => '1'
+        ]);
+        Category::create([
+            'name' => 'Laptops',
+            'parent_id' => '1'
+        ]);
+        Category::create([
+            'name' => 'Money',
+            'parent_id' => '1'
+        ]);
     }
 }

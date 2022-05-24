@@ -39,7 +39,7 @@
         <div class="row py-3 align-items-center">
             <div class="col-lg-6">
                 <p class="copy-right-text text-lg-left text-center mb-lg-0 mb-3">Copyright © 2022.All Rights Reserved By
-                    <a href="{{ URL::route('home') }}">Lottoro</a>
+                    <a href="{{ URL::route('home') }}">Tomboro</a>
                 </p>
             </div>
             <div class="col-lg-6">

@@ -87,8 +87,8 @@
                     </ul>
                     <div class="nav-right">
                         <a href="{{ URL::route('contests') }}" class="cmn-btn style--three btn--sm"><img
-                                src="{{ asset('assets/images/icon/btn/tag.png') }}" alt="icon" class="mr-2">Cumpara
-                            Bilet</a>
+                                src="{{ asset('assets/images/icon/btn/tag.png') }}" alt="icon" class="mr-2">{{
+                            trans('translation.cumpara bilet') }}</a>
                     </div>
                 </div>
             </nav>

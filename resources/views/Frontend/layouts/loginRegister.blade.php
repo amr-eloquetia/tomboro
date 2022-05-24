@@ -7,7 +7,7 @@
                     <div class="account-form-area">
                         <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close"><i
                                 class="las la-times"></i></button>
-                        <h3 class="title">Welcome Back</h3>
+                        <h3 class="title">{{ trans('translation.Bine Ati Venit!') }}</h3>
                         <div class="account-form-wrapper">
                             <form method="POST" action="{{ URL::route('login.post') }}">
                                 @csrf
@@ -20,22 +20,24 @@
                                     <input type="password" name="password" id="password" placeholder="password">
                                 </div>
                                 <div class="d-flex flex-wrap justify-content-between mt-2">
-                                    <div class="custom-checkbox">
-                                        <input type="checkbox" name="id-1" id="id-1" checked>
+                                    {{-- <div class="custom-checkbox">
+                                        <input type="checkbox" name="id-1" id="id-1">
                                         <label for="id-1">Remember Password</label>
                                         <span class="checkbox"></span>
-                                    </div>
-                                    <a href="#0" class="link">Forgot Password?</a>
+                                    </div> --}}
+                                    <a href="#0" class="link">{{ trans('translation.Ați uitat parola?') }}</a>
                                 </div>
                                 <div class="form-group text-center mt-5">
-                                    <button type="submit" class="cmn-btn">log in</button>
+                                    <button type="submit" class="cmn-btn">{{ trans('translation.Autentificare')
+                                        }}</button>
                                 </div>
                             </form>
-                            <p class="text-center mt-4">Don’t have an account? <a href="#0" data-toggle="modal"
-                                    data-target="#signupModal" data-dismiss="modal" aria-label="Close"> Sign Up Now</a>
+                            <p class="text-center mt-4">{{ trans('translation.Nu aveți un cont?') }} <a href="#0"
+                                    data-toggle="modal" data-target="#signupModal" data-dismiss="modal"
+                                    aria-label="Close">{{ trans('translation.Inscrieti va acum') }}</a>
                             </p>
                             <div class="divider">
-                                <span>or</span>
+                                <span>{{ trans('translation.Sau') }}</span>
                             </div>
                             <ul class="social-link-list">
                                 <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
@@ -57,7 +59,7 @@
                     <div class="account-form-area">
                         <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close"><i
                                 class="las la-times"></i></button>
-                        <h3 class="title">Open Free Account</h3>
+                        <h3 class="title">{{ trans('translation.Deschideți cont gratuit') }}</h3>
                         <div class="account-form-wrapper">
                             <form action="{{ route('register.post') }}" method="POST">
                                 @csrf
@@ -90,19 +92,22 @@
                                 <div class="d-flex flex-wrap mt-2">
                                     <div class="custom-checkbox">
                                         <input type="checkbox" name="id-2" id="id-2" checked>
-                                        <label for="id-2">I agree to the</label>
+                                        <label for="id-2">{{ trans('translation.Sunt de acord cu') }}</label>
                                         <span class="checkbox"></span>
                                     </div>
-                                    <a href="#0" class="link ml-1">Terms, Privacy Policy and Fees</a>
+                                    <a href="{{ route('terms') }}" class="link ml-1">Terms, Privacy Policy and Fees</a>
                                 </div>
                                 <div class="form-group text-center mt-5">
-                                    <button class="cmn-btn" type="submit">Register</button>
+                                    <button class="cmn-btn" type="submit">{{ trans('translation.Inregistrare')
+                                        }}</button>
                                 </div>
                             </form>
-                            <p class="text-center mt-4"> Already have an account? <a href="#0" data-target="#loginModal"
-                                    data-toggle="modal" data-dismiss="modal" aria-label="Close">Login</a></p>
+                            <p class="text-center mt-4">{{ trans('translation.Aveți deja un cont?') }} <a href="#0"
+                                    data-target="#loginModal" data-toggle="modal" data-dismiss="modal"
+                                    aria-label="Close">{{
+                                    trans('translation.Autentificare') }}</a></p>
                             <div class="divider">
-                                <span>or</span>
+                                <span>{{ trans('translation.Sau') }}</span>
                             </div>
                             <ul class="social-link-list">
                                 <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>

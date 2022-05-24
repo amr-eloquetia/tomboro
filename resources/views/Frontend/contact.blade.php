@@ -66,8 +66,8 @@
                                                 src="{{ URL::asset('assets/images/icon/contact/1.png') }}" alt="image">
                                         </div>
                                         <div class="contact-info__content">
-                                            <p>{{ trans('translation.Număr de telefon') }}</p>
-                                            <span>+0123 456789</span>
+                                            <p>{{ trans('translation.Numar de telefon') }}</p>
+                                            <span>+40720517673</span>
                                         </div>
                                     </div><!-- contact-info end -->
                                     <div class="contact-info">
@@ -76,12 +76,13 @@
                                         </div>
                                         <div class="contact-info__content">
                                             <p>Email</p>
-                                            <span>info@rifa.com</span>
+                                            <span> support@tomboro.ro</span>
                                         </div>
                                     </div><!-- contact-info end -->
                                 </div>
-                                <div class="contact-thumb"><img
-                                        src="{{ URL::asset('assets/images/elements/contact.png') }}" alt="image">
+                                <div class="contact-thumb">
+                                    {{-- <img src="{{ URL::asset('assets/images/elements/contact.png') }}" alt="image">
+                                    --}}
                                 </div>
                             </div>
                         </div>

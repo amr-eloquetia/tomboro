@@ -37,7 +37,7 @@
                         <li><a href="{{ URL::route('userInfo') }}">Personal Information</a></li>
                         <li><a href="{{ URL::route('userTransactions') }}">Transactions</a></li>
                         <li><a href="{{ URL::route('contact') }}">Help Center</a></li>
-                        <li><a href="{{ URL::route('logout') }}">Log Out</a></li>
+                        {{-- <li><a href="{{ URL::route('logout') }}">Log Out</a></li> --}}
                         <li><a>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf

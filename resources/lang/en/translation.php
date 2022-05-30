@@ -93,4 +93,11 @@ return [
     'Aveți deja un cont?' => 'Already have an account?',
     'Sau' => 'Or',
     'Numar de telefon' => 'Phone number',
+    'Nu ratați niciodată o tragere la sorți!' => 'Never miss a draw!',
+    'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale' => 'An easy way to buy tickets and win your dream car',
+    'Tragerea la sorți a avut loc pe' => 'The draw was held on',
+    'Ultimele cele mai mari numere câștigătoare' => 'The latest winning numbers',
+    'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat' => 'Meet the latest winners of your favourite competition',
+    'Ultimii câștigători' => 'Latest winners',
+    'Cum se revendică' => 'How to Claim',
 ];

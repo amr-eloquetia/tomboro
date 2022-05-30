@@ -24,7 +24,7 @@ return [
     'Verificați numărul biletului dvs. pentru a vedea dacă sunteți câștigător.' => 'Verificați numărul biletului dvs. pentru a vedea dacă sunteți câștigător.',
     'Verifica biletul' => 'Verifică biletul',
     'Tineti in mana un bilet castigator?' => 'Tineti in mana un bilet castigator?',
-    'Lata un mod simplu de a afla.' => 'Lata un mod simplu de a afla.',
+    'Lata un mod simplu de a afla.' => 'Iata un mod simplu de a afla.',
     'Introduceti numarul biletului...' => 'Introduceti numarul biletului...',
     'Verifica' => 'Verifica',
     'Numerele castigatoare' => 'Numerele castigatoare',
@@ -93,4 +93,12 @@ return [
     'Aveți deja un cont?' => 'Aveți deja un cont?',
     'Sau' => 'Sau',
     'Numar de telefon' => 'Număr de telefon',
+    'Nu ratați niciodată o tragere la sorți!' => 'Nu ratați niciodată o tragere la sorți!',
+    'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale' => 'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale',
+    'Tragerea la sorți a avut loc pe' => 'Tragerea la sorți a avut loc pe',
+    'Ultimele cele mai mari numere câștigătoare' => 'Ultimele cele mai mari numere câștigătoare',
+    'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat' => 'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat',
+    'Ultimii câștigători' => 'Ultimii câștigători',
+    'Cum se revendică' => 'Cum se revendică',
+
 ];

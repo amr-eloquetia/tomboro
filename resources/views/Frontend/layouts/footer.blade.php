@@ -1,7 +1,7 @@
 <footer class="" style="position: relative; background-color:#2b2b2b">
     {{-- <div class="bg-shape--top"><img src="{{ URL::asset('assets/images/elements/round-shape-2.png') }}" alt="image">
     </div> --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
                 <div class="subscribe-area">
@@ -19,8 +19,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container mt-50">
+    </div> --}}
+    <div class="container py-5">
         <div class="row align-items-center">
 
             <div class="col-lg-12 align-items-center">

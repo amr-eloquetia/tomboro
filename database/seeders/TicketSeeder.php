@@ -45,5 +45,15 @@ class TicketSeeder extends Seeder
 
             ]);
         }
+        for ($i = 0; $i < 12; $i++) {
+            Tickets::create([
+                'ticket_number' => random_int(100000, 999999),
+                'price' => '7',
+                'availability' => '1',
+                'prize_id' => '4',
+                'owner_id' => '0'
+
+            ]);
+        }
     }
 }

@@ -81,6 +81,7 @@ class TicketsController extends Controller
                 "ticket number" => $ticket->ticket_number,
                 "quantity" => 1,
                 "price" => $ticket->price,
+                "owner_id" => $ticket->owner_id,
 
             ];
         }
@@ -115,27 +116,29 @@ class TicketsController extends Controller
         $data = $request->input();
         $user_id = Auth::user()->id;
         $ticket_numbers = $data['ticket_number'];
-        $selected_ticket = Tickets::where('ticket_number', $ticket_numbers)->first();
+        $cart = session()->get('cart', []);
+
         foreach ($ticket_numbers as $key => $value) {
             $ticket = Tickets::where('ticket_number', $value)->first();
             $ticket->owner_id = $user_id;
             $ticket->save();
+
+            if ($ticket->id) {
+                $cart = session()->get('cart');
+                if (isset($cart[$ticket->id])) {
+                    unset($cart[$ticket->id]);
+                    session()->put('cart', $cart);
+                }
+                session()->flash('success', 'Product removed successfully');
+            }
         }
         $my_tickets = Tickets::where('owner_id', Auth::user()->id)->get();
 
-        $cart = session()->get('cart', []);
 
-        if ($request->ticket_id) {
-            $cart = session()->get('cart');
-            if (isset($cart[$selected_ticket->id])) {
-                unset($cart[$selected_ticket->id]);
-                session()->put('cart', $cart);
-            }
-            session()->flash('success', 'Product removed successfully');
-        }
 
-        // dd($cart);
+
         return view('Frontend.customer.userPanel', compact('my_tickets'))->with('success', 'Tickets bought successfully!');
+
 
 
     }

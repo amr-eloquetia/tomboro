@@ -208,7 +208,6 @@
                                         </div><!-- contest-card end -->
                                     </div>
                                     @endif
-
                                     @endforeach
 
                                 </div>
@@ -261,16 +260,66 @@
                                         </div><!-- contest-card end -->
                                     </div>
                                     @endif
-
                                     @endforeach
+                                </div>
 
+                            </div>
+                            <div class="tab-pane fade" id="phone" role="tabpanel" aria-labelledby="phone-tab">
+
+                                <div class="row mb-none-30 mt-50">
+                                    @foreach ($prizes as $prize)
+                                    @if ($prize->category_id === 3)
+                                    <div class="col-xl-4 col-md-6 mb-30">
+                                        <div class="contest-card">
+                                            <a href="{{ URL::route('singlePrize',['prize_code'=> $prize->prize_code]) }}"
+                                                class="item-link"></a>
+                                            <div class="contest-card__thumb">
+                                                @foreach ($prize->medias as $media)
+                                                <img src="{{ URL::asset('storage/' .$media->path)}}" alt="image">
+
+                                                @endforeach
+                                                {{-- <a href="#0" class="action-icon"><i class="far fa-heart"></i></a>
+                                                --}}
+                                                <div class="contest-num">
+                                                    <span>contest no:</span>
+                                                    <h4 class="number">{{ $prize->prize_code }}</h4>
+                                                </div>
+                                            </div>
+                                            <div class="contest-card__content">
+                                                <div class="left">
+                                                    <h5 class="contest-card__name">{{ $prize->name }}</h5>
+                                                </div>
+                                                <div class="right"
+                                                    style="display: flex; flex-direction:column; justify-content:center">
+                                                    <p>Pret</p>
+                                                    <span class="contest-card__price">{{ $prize->ticket_price }}
+                                                        lei</span>
+                                                </div>
+                                            </div>
+                                            <div class="contest-card__footer" style="padding: 15px !important">
+                                                <ul class="contest-card__meta">
+                                                    <li style="width: 40%">
+                                                        <i class="las la-clock"></i>
+                                                        <span>{{ $prize->prize_date }}</span>
+                                                    </li>
+                                                    <li style="justify-content:flex-end">
+                                                        <i class="las la-ticket-alt"></i>
+                                                        <span>{{ $prize->ticket_amount }}</span>
+                                                        <p>{{ trans('translation.total bilete') }}</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- contest-card end -->
+                                    </div>
+                                    @endif
+                                    @endforeach
                                 </div>
 
                             </div>
                             <div class="tab-pane fade" id="watch" role="tabpanel" aria-labelledby="watch-tab">
                                 <div class="row mb-none-30 mt-50">
                                     @foreach ($prizes as $prize)
-                                    @if ($prize->category_id === 3)
+                                    @if ($prize->category_id === 4)
                                     <div class="col-xl-4 col-md-6 mb-30">
                                         <div class="contest-card">
                                             <a href="{{ URL::route('singlePrize',['prize_code'=> $prize->prize_code]) }}"
@@ -324,7 +373,7 @@
 
                                 <div class="row mb-none-30 mt-50">
                                     @foreach ($prizes as $prize)
-                                    @if ($prize->category_id === 4)
+                                    @if ($prize->category_id === 5)
                                     <div class="col-xl-4 col-md-6 mb-30">
                                         <div class="contest-card">
                                             <a href="{{ URL::route('singlePrize',['prize_code'=> $prize->prize_code]) }}"
@@ -378,7 +427,7 @@
 
                                 <div class="row mb-none-30 mt-50">
                                     @foreach ($prizes as $prize)
-                                    @if ($prize->category_id === 5)
+                                    @if ($prize->category_id === 6)
                                     <div class="col-xl-4 col-md-6 mb-30">
                                         <div class="contest-card">
                                             <a href="{{ URL::route('singlePrize',['prize_code'=> $prize->prize_code]) }}"

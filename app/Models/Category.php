@@ -15,5 +15,6 @@ class Category extends Model
     public function prizes()
     {
         return $this->hasMany('\App\Models\Prizes', 'category_id', 'id');
+               $this->hasMany('\App\Models\Prizes', 'category_name', 'name');
     }
 }

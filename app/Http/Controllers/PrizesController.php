@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Media;
 use App\Models\Prizes;
 use Illuminate\Http\Request;
@@ -117,7 +118,10 @@ class PrizesController extends Controller
     public function show(Prizes $prizes)
     {
         $prizes = Prizes::all();
-        return view('Frontend.contest', compact('prizes'));
+        $categories = Category::all();
+        // dd($prizes);
+        // dd($categories);
+        return view('Frontend.contest', compact('prizes', 'categories'));
     }
 
     /**

@@ -45,6 +45,7 @@
                         @endif
                         @endforeach
                     </div>
+                    <div class="col-md-12 d-flex justify-content-center">{{ $tickets->links() }}</div>
                 </div><!-- lottery-wrapper end -->
             </div><!-- col-lg-12 -->
             {{-- <div class="col-lg-12 mt-50">

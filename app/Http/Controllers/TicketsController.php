@@ -16,7 +16,7 @@ class TicketsController extends Controller
      */
     public function index()
     {
-        $tickets = Tickets::all();
+        $tickets = Tickets::paginate(4);
         return view('Frontend.lotteryDetails', compact('tickets'));
     }
 
@@ -53,7 +53,7 @@ class TicketsController extends Controller
         $prize = Prizes::where('prize_code', $prize_code)->first();
 
 
-        $tickets = Tickets::where('prize_id', $prize->id)->get();
+        $tickets = Tickets::where('prize_id', $prize->id)->paginate(6);
         return view('Frontend.lotteryDetails', compact('prize', 'tickets'));
     }
 

@@ -769,7 +769,7 @@ input {
 
 .cmn-accordion .card {
   border: none;
-  background-color: #683df5;
+  background-color: #343a40 !important;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 20px !important;
@@ -780,7 +780,7 @@ input {
 }
 
 .cmn-accordion .card-header {
-  background-color: #683df5;
+  background-color: #343a40 !important;
   padding: 0;
   margin-bottom: 0 !important;
   border: none;

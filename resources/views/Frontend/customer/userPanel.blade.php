@@ -10,14 +10,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="user-card">
+                <div class="user-card" style="background-image: none; background-color:#343a40">
                     <div class="avatar-upload">
                         <div class="obj-el"><img src="{{ URL::asset('assets/images/elements/team-obj.png') }}"
                                 alt="image"></div>
-                        <div class="avatar-edit">
+                        {{-- <div class="avatar-edit">
                             <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
                             <label for="imageUpload"></label>
-                        </div>
+                        </div> --}}
                         <div class="avatar-preview">
                             <div id="imagePreview"
                                 style="background-image: url('{{ asset('storage/user_avatars/' .Auth::user()->avatar) }}');">
@@ -25,23 +25,27 @@
                         </div>
                     </div>
                     <h3 class="user-card__name">{{Auth::user()->username}}</h3>
-                    <span class="user-card__id">ID : 19535909</span>
+                    <span class="user-card__id">ID : 195359{{Auth::user()->id}}</span>
                 </div><!-- user-card end -->
-                <div class="user-action-card">
+                <div class="user-action-card" style="background-image: none; background-color:#343a40">
                     <ul class="user-action-list">
-                        <li class="active"><a href="{{ URL::route('userPanel') }}">My Tickets
+                        <li class="active"><a href="{{ URL::route('userPanel') }}">{{ trans('translation.biletele mele')
+                                }}
                                 @if (count($my_tickets) > 0)
                                 <span class="badge">{{ count($my_tickets) }}</span>
                                 @endif
                             </a></li>
-                        <li><a href="{{ URL::route('userInfo') }}">Personal Information</a></li>
-                        <li><a href="{{ URL::route('userTransactions') }}">Transactions</a></li>
-                        <li><a href="{{ URL::route('contact') }}">Help Center</a></li>
+                        <li><a href="{{ URL::route('userInfo') }}">{{ trans('translation.Informațiipersonale') }}</a>
+                        </li>
+                        <li><a href="{{ URL::route('userTransactions') }}">{{ trans('translation.Tranzacții') }}</a>
+                        </li>
+                        <li><a href="{{ URL::route('contact') }}">{{ trans('translation.Centru de asistență') }}</a>
+                        </li>
                         {{-- <li><a href="{{ URL::route('logout') }}">Log Out</a></li> --}}
                         <li><a>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf
-                                    <button type="submit" class="btn btn-primary">Logout</button>
+                                    <button type="submit" class="btn btn-outline-light">Logout</button>
                                 </form>
                             </a>
                         </li>
@@ -70,7 +74,7 @@
                         @endforeach
                     </div><!-- draw-ticket-slider end -->
                 </div><!-- upcoming-draw-wrapper end -->
-                <div class="past-draw-wrapper">
+                <div class="past-draw-wrapper" style="background-image: none; background-color:#343a40">
                     <h3 class="title">Past Draws</h3>
                     <div class="table-responsive-lg">
                         <table>
@@ -82,7 +86,7 @@
                                     <th>Status</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style="background-image: none; background-color:#2b2f34">
                                 <tr>
                                     <td><span class="date">02.04.2020</span></td>
                                     <td><span class="contest-no">R9D</span></td>
@@ -102,9 +106,9 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="load-more">
+                    {{-- <div class="load-more">
                         <button type="button">Show More Lotteries <i class="las la-angle-down ml-2"></i></button>
-                    </div>
+                    </div> --}}
                 </div><!-- past-draw-wrapper end -->
             </div>
         </div>

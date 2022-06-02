@@ -3,7 +3,7 @@
 <div class="inner-hero-section">
     {{-- <div class="bg-shape"><img src="{{ URL::asset('assets/images/elements/inner-hero-shape.png') }}" alt="image">
     </div> --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <ul class="page-list">
@@ -12,9 +12,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
-<section class="pb-120 mt-minus-300">
+<section class="pb-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

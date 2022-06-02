@@ -25,12 +25,12 @@
 
             <div class="col-lg-12 align-items-center">
                 <ul class="short-links justify-content-center">
-                    <li><a href="{{ URL::route('aboutUs') }}">About</a></li>
+                    <li><a href="{{ URL::route('aboutUs') }}">{{ trans('translation.despre noi') }}</a></li>
                     <li><a href="{{ URL::route('faq') }}">FAQs</a></li>
                     <li><a href="{{ URL::route('contact') }}">Contact</a></li>
                     <li><a href="{{ URL::route('fairGambling') }}">Fair Gambling</a></li>
                     <li><a href="{{ URL::route('safePlay') }}">Safe Play</a></li>
-                    <li><a href="{{ URL::route('terms') }}">Terms & Conditions</a></li>
+                    <li><a href="{{ URL::route('terms') }}">{{ trans('translation.termeni si conditii') }}</a></li>
                     <li><a href="{{ URL::route('privacy') }}">Privacy</a></li>
                 </ul>
             </div>
@@ -44,9 +44,11 @@
             </div>
             <div class="col-lg-6">
                 <ul class="social-links justify-content-lg-end justify-content-center">
-                    <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.facebook.com/Tomboro-105024392235539" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/TomboroT" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/tomboro_/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>

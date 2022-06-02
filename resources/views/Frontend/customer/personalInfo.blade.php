@@ -10,14 +10,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="user-card">
+                <div class="user-card" style="background-image: none; background-color:#343a40">
                     <div class="avatar-upload">
                         <div class="obj-el"><img src="{{ URL::asset('assets/images/elements/team-obj.png') }}"
                                 alt="image"></div>
-                        <div class="avatar-edit">
+                        {{-- <div class="avatar-edit">
                             <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
                             <label for="imageUpload"></label>
-                        </div>
+                        </div> --}}
                         <div class="avatar-preview">
                             <div id="imagePreview"
                                 style="background-image: url('{{ asset('storage/user_avatars/' .Auth::user()->avatar) }}');">
@@ -26,19 +26,22 @@
                         {{-- {{ URL::asset('storage/user_avatars/' .Auth::user()->avatar)}} --}}
                     </div>
                     <h3 class="user-card__name">{{Auth::user()->username}}</h3>
-                    <span class="user-card__id">ID : 100322{{Auth::user()->id}}</span>
+                    <span class="user-card__id">ID : 195359{{Auth::user()->id}}</span>
                 </div><!-- user-card end -->
-                <div class="user-action-card">
+                <div class="user-action-card" style="background-image: none; background-color:#343a40">
                     <ul class="user-action-list">
-                        <li><a href="{{ URL::route('userPanel') }}">My Tickets <span class="badge">04</span></a></li>
-                        <li class="active"><a href="{{ URL::route('userInfo') }}">Personal Information</a></li>
-                        <li><a href="{{ URL::route('userTransactions') }}">Transactions</a></li>
-                        <li><a href="{{ URL::route('contact') }}">Help Center</a></li>
-                        <li><a href="{{ URL::route('logout') }}">Log Out</a></li>
+                        <li><a href="{{ URL::route('userPanel') }}">{{ trans('translation.biletele mele') }}</a></li>
+                        <li class="active"><a
+                                href="{{ URL::route('userInfo') }}">{{trans('translation.Informațiipersonale')}}</a>
+                        </li>
+                        <li><a href="{{ URL::route('userTransactions') }}">{{ trans('translation.Tranzacții') }}</a>
+                        </li>
+                        <li><a href="{{ URL::route('contact') }}">{{ trans('translation.Centru de asistență') }}</a>
+                        </li>
                         <li><a>
                                 <form method="POST" action="{{ route('logout') }}">
                                     @csrf
-                                    <button type="submit" class="btn btn-primary">Logout</button>
+                                    <button type="submit" class="btn btn-outline-light">Logout</button>
                                 </form>
                             </a>
                         </li>
@@ -46,24 +49,20 @@
                 </div><!-- user-action-card end -->
             </div>
             <div class="col-lg-8 mt-lg-0 mt-5">
-                <div class="user-info-card">
+                <div class="user-info-card" style="background-image: none; background-color:#343a40">
                     <div class="user-info-card__header">
-                        <h3 class="user-info-card__title">Personal Details</h3>
+                        <h3 class="user-info-card__title">{{trans('translation.Informațiipersonale')}}</h3>
                         <button type="button"><a href="#0" data-toggle="modal" data-target="#editInfoModal"><i
-                                    class="far fa-edit"></i> Edit</a></button>
+                                    class="far fa-edit"></i> {{ trans('translation.editează') }}</a></button>
 
                     </div>
                     <ul class="user-info-card__list">
                         <li>
-                            <span class="caption">Name</span>
+                            <span class="caption">{{ trans('translation.Nume') }}</span>
                             <span class="value">{{Auth::user()->username}}</span>
                         </li>
                         <li>
-                            <span class="caption">Date of Birth</span>
-                            <span class="value">15-03-1974</span>
-                        </li>
-                        <li>
-                            <span class="caption">Address</span>
+                            <span class="caption">{{ trans('translation.adresa') }}</span>
                             <span class="value">{{Auth::user()->address}}</span>
                         </li>
                         <li>

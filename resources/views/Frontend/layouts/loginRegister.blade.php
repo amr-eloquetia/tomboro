@@ -40,9 +40,12 @@
                                 <span>{{ trans('translation.Sau') }}</span>
                             </div>
                             <ul class="social-link-list">
-                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tomboro-105024392235539" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/TomboroT" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/tomboro_/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -110,9 +113,12 @@
                                 <span>{{ trans('translation.Sau') }}</span>
                             </div>
                             <ul class="social-link-list">
-                                <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#0"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://www.facebook.com/Tomboro-105024392235539" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/TomboroT" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/tomboro_/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
 <div class="inner-hero-section">
     {{-- <div class="bg-shape"><img src="{{ URL::asset('assets/images/elements/inner-hero-shape.png') }}" alt="image">
     </div> --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <ul class="page-list">
@@ -12,9 +12,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
-<section class="pb-120 mt-minus-300">
+<section class="pb-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -159,7 +159,7 @@
                         <h4>8. Reclamații</h4><br>
                         <p>Ne străduim să vă oferim cele mai bune servicii posibile, însă, în cazul în care considerați
                             că nu am reușit să ducem la bun sfârșit îndeplinirea obligațiilor noastre, ne puteți
-                            contacta la i support@tomboro.ro. </p>
+                            contacta la support@tomboro.ro. </p>
                         <br>
                     </div>
                 </div>

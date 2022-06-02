@@ -3,7 +3,7 @@
 <div class="inner-hero-section">
     {{-- <div class="bg-shape"><img src="{{ URL::asset('assets/images/elements/inner-hero-shape.png') }}" alt="image">
     </div> --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <ul class="page-list">
@@ -12,9 +12,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
-<section class="pb-120 mt-minus-300">
+<section class="pb-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -30,7 +30,7 @@
                             International Plc.
                         </p><br>
                         <p>Address- tombola International Plc , UK address . If you need have any queries
-                            concerning your personal data contact us at support@tombola.co.uk.
+                            concerning your personal data contact us at support@tomboro.ro.
                         </p><br>
                         <p>Please read the following policy to understand how we collect and use information
                             about users of our websites, tombola bingo www.tombola.co.uk and tombola arcade
@@ -457,8 +457,8 @@
 
                         <p>If you have a question or concern about your privacy and rights on tombola, please
                             do not hesitate to contact Us.</p>
-                        <p>Free telephone number: 0800 298 8873</p>
-                        <p>E-mail: support@tombola.co.uk</p><br>
+                        <p>Free telephone number: +40720517673</p>
+                        <p>E-mail: support@tomboro</p><br>
                         <p>If you wish to exercise any of your rights please contact the Data Compliance
                             Officer: dp@tombola.com</p>
                         <p>You also have the right to lodge a complaint with your local supervisory authority.
@@ -563,7 +563,7 @@
                         <h3>Marketing contact</h3><br>
                         <p>You may opt out of receiving communications offering commercial goods or services at
                             any time by adjusting your contact preferences within the "My Account" area of the
-                            websites, or by sending a request to support@tombola.co.uk in accordance with our
+                            websites, or by sending a request to support@tomboro.ro in accordance with our
                             Privacy Policy.</p><br>
                         <p>After 48 hours you will no longer receive any marketing via direct mail/email/SMS
                             text. However, we may still need to correspond with you regarding account details,
@@ -580,9 +580,9 @@
                             was originally created and published May 2018.</p><br>
                         <h3>Contact Information</h3><br>
                         <ul>
-                            <li>• Free telephone number: 0800 298 8873</li>
-                            <li>• E-mail: support@tombola.co.uk</li>
-                            <li>• Last updated on 20/03/2020</li>
+                            <li>• Free telephone number: +40 720 517 673</li>
+                            <li>• E-mail: support@tomboro.ro</li>
+                            <li>• Last updated on 20/03/2022</li>
                         </ul>
                     </div>
                 </div>

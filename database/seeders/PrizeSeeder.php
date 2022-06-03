@@ -18,7 +18,7 @@ class PrizeSeeder extends Seeder
     {
         DB::table('prizes')->insert([
             'name' => 'Lamborghini Huracan',
-            'prize_code' => '106456',
+            'prize_code' => 'C1Z1',
             'ticket_amount' => '100000',
             'ticket_price' => '50',
             'prize_date' => Carbon::create('2022', '06', '06'),
@@ -39,7 +39,7 @@ class PrizeSeeder extends Seeder
         ]);
         DB::table('prizes')->insert([
             'name' => 'Yamaha YZF-R1',
-            'prize_code' => '206456',
+            'prize_code' => 'M1Z1',
             'ticket_amount' => '10000',
             'ticket_price' => '20',
             'prize_date' => Carbon::create('2022', '06', '06'),
@@ -53,7 +53,7 @@ class PrizeSeeder extends Seeder
         ]);
         DB::table('prizes')->insert([
             'name' => 'Iphone 13 PRO MAX',
-            'prize_code' => '306235',
+            'prize_code' => 'P1Z1',
             'ticket_amount' => '1000',
             'ticket_price' => '10',
             'prize_date' => Carbon::create('2022', '06', '06'),
@@ -73,7 +73,7 @@ class PrizeSeeder extends Seeder
         ]);
         DB::table('prizes')->insert([
             'name' => 'Macbook m1',
-            'prize_code' => '406242',
+            'prize_code' => 'L1X1',
             'ticket_amount' => '1000',
             'ticket_price' => '10',
             'prize_date' => Carbon::create('2022', '06', '06'),

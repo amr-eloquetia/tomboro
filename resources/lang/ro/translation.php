@@ -97,7 +97,7 @@ return [
     'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale' => 'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale',
     'Tragerea la sorți a avut loc pe' => 'Tragerea la sorți a avut loc pe',
     'Ultimele cele mai mari numere câștigătoare' => 'Ultimele cele mai mari numere câștigătoare',
-    'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat' => 'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat',
+    'Faceți cunoștință cu ultimii' => 'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat',
     'Ultimii câștigători' => 'Ultimii câștigători',
     'Cum se revendică' => 'Cum se revendică',
     'Bilete' => 'Bilete',
@@ -149,6 +149,60 @@ return [
     'Descriere' => 'Descriere',
     'suma' => 'Suma',
     'termeni si conditii' => 'Termeni si conditii',
+    'Luați legătura' => 'Luați legătura cu asistența noastră prietenoasă',
+    'suport clienti' => 'Suport clienti',
+    'Aveți o întrebare?' => 'Aveți o întrebare sau aveți nevoie de ajutor? Contactați echipa noastră prietenoasă de asistență.',
+    'Discutați cu echipa noastră de asistență' => 'Discutați cu echipa noastră de asistență',
+    'Aveți o întrebare despre concursuri?' => 'Aveți o întrebare despre concursuri?',
+    'sunați-ne' => 'Sunați-ne',
+    'ghidul nostru la tomboro' => 'Ghidul nostru la Tomboro',
+    'Consultați întrebările frecvente pentru a vedea dacă vă putem ajuta.' => 'Consultați întrebările frecvente pentru a vedea dacă vă putem ajuta.',
+    'Intrebări frecvente și ajutor' => 'Întrebări frecvente și ajutor',
 
+    //fair gambling
 
+    'fair gambling page' => '<div class="row" style="display: flex; flex-direction:column">
+        <h2>Fair gambling explained at tombola</h2><br>
+        <p>If you’re new to bingo, or even gambling in general, you may not only be wondering how it
+            works,
+            but also if it’s fair. That’s why, to help put your mind at ease, we’ve answered some of the
+            questions you may have on fair bingo.</p><br>
+        <h3>Is the game fair? How do I know it is not fixed?</h3><br>
+        <p>All results on tombola are randomly generated and cannot be predetermined - we use an
+            industry
+            standard Random Number Generator to determine the outcome of each game. The game is of the
+            high
+            quality you rightly expect from tombola.</p><br>
+        <h3>Game Testing</h3><br>
+        <p>All tombola games use the same RNG and have been tested by an independent auditor, approved
+            by
+            the Gambling Commission (GB) and the Gibraltar Gambling Commissioner. tombola ensures all
+            games
+            are put through rigorous tests before releasing it for customers to access.<br>
+            Gaming Associates has evaluated the RNG, scaling, mapping algorithms, and the online games
+            against technical standards for the jurisdictions of the United Kingdom and Gibraltar. The
+            evaluation has been performed through source code review, functionality testing, emulation,
+            verification of mathematical treatise, and statistical analysis.<br>
+            Click here to view the latest RNG and games certificate.</p><br>
+        <h3>Is online bingo different to land based bingo?</h3><br>
+        <p>There are many similarities between playing bingo online and playing it in a land based bingo
+            club. Every player has a ticket and marks off the numbers on the ticket as they are called.
+            The
+            player that marks off all their numbers first is the winner. Along the way there are often
+            smaller prizes for crossing off One Line or Two Lines on the ticket first. However, when
+            you’re
+            playing online bingo, you don’t have to worry about keeping up with the caller because our
+            games
+            can be set to mark automatically.</p><br>
+        <h3>How does bingo work? Is online bingo fixed?</h3><br>
+        <p>For anyone new to the online bingo world, our how to play bingo online guide is a great place
+            to
+            start. Is online bingo fixed? In a word, no. While you can’t see the balls being drawn in
+            real
+            life, we use a Random Number Generator to pick the numbers for each bingo game so they are
+            fair.
+            For more information about tombola and playing with us please head to our Bingo Advice, Help
+            and
+            FAQs page.</p>
+    </div>',
 ];

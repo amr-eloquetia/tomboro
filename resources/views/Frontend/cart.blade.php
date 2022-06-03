@@ -49,13 +49,13 @@
                                                                 </h4>
                                                                 <input type="text"
                                                                     value="{{ $details['ticket number'] }}"
-                                                                    name="ticket_number[]" />
+                                                                    name="ticket_number[]" hidden />
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td data-th="Price" style="color:#fff !important">${{
+                                                    <td data-th="Price" style="color:#fff !important">{{
                                                         $details['price']
-                                                        }}</td>
+                                                        }} Lei</td>
                                                     <td class="actions" data-th="">
                                                         <button class="btn btn-danger btn-sm remove-from-cart"><i
                                                                 class="las la-trash-alt"></i></button>
@@ -67,7 +67,7 @@
                                             <tfoot>
                                                 <tr>
                                                     <td colspan="5" class="text-right">
-                                                        <h3><strong>Total ${{ $total }}</strong></h3>
+                                                        <h3><strong>Total {{ $total }} Lei</strong></h3>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -84,7 +84,7 @@
                                                         {{-- <a href="{{ url('/') }}" class="btn btn-warning"><i
                                                                 class="fa fa-angle-left"></i> Continue
                                                             Shopping</a> --}}
-                                                        <button type="submit" class="btn btn-success">Cehckout</button>
+                                                        <button type="submit" class="btn btn-success">Checkout</button>
                                                     </td>
                                                 </tr>
                                             </tfoot>

@@ -108,4 +108,4 @@ Route::get('stripe', [StripeController::class, 'stripe']);
 Route::post('stripe', [StripeController::class, 'stripePost'])->name('stripe.post');
 
 
-Route::get('lang/{lang}', [HomeController::class, 'lang'])->name('lang');
+Route::get('/lang/{lang}', [HomeController::class, 'lang'])->name('lang');

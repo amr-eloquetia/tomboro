@@ -32,8 +32,9 @@ class PagesController extends Controller
     }
     public function userPanel()
     {
+        $prizes = Prizes::all();
         $my_tickets = Tickets::where('owner_id', Auth::user()->id)->get();
-        return view('Frontend.customer.userPanel',compact('my_tickets'));
+        return view('Frontend.customer.userPanel',compact('my_tickets','prizes'));
     }
     public function userInfo()
     {

@@ -28,7 +28,7 @@
                     data-background="{{ URL::asset('assets/images/elements/winner-details.jpg') }}">
                     <div class="left"><img src="{{ URL::asset('assets/images/contest/1.png') }}" alt="image"></div>
                     <div class="body">
-                        <p class="contest-number">Contest No: B2T</p>
+                        <p class="contest-number">{{ trans('translation.Concurs') }}: B2T</p>
                         <p class="contest-date"><span>{{ trans('translation.Tragerea la sorți a avut loc pe') }}
                                 :</span> Saturday May 20, 2020</p>
                         <div class="line"></div>
@@ -63,8 +63,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                 <div class="section-header text-center">
-                    <span class="section-sub-title">{{ trans('translation.Faceți cunoștință cu ultimii câștigători de la
-                        concursul dumneavoastră preferat') }}</span>
+                    <span class="section-sub-title">{{ trans('translation.Faceți cunoștință cu ultimii') }}</span>
                     <h2 class="section-title">{{ trans('translation.Ultimii câștigători') }}</h2>
                     <p>{{ trans('translation.Verificați numărul biletului dvs. pentru a vedea dacă sunteți câștigător.')
                         }}</p>

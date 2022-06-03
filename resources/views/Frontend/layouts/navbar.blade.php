@@ -4,23 +4,24 @@
             <div class="row align-items-center">
                 <div class="col-sm-6">
                     <div class="left d-flex align-items-center">
-                        <a href="tel:65655655"><i class="las la-phone-volume"></i> {{ trans('translation.Suport') }}</a>
+                        <a href="tel:+40720517673"><i class="las la-phone-volume"></i> {{ trans('translation.Suport')
+                            }}</a>
                         <ul class="navbar-nav ml-3">
                             @php $locale = session()->get('locale'); @endphp
                             <li class="nav-item dropdown" style="display: flex">
                                 @switch($locale)
                                 @case('en')
                                 <a class="d-flex align-items-center justify-content-center text-light pl-2"
-                                    href="lang/en">En</a>
+                                    href="/lang/en">En</a>
                                 @break
                                 @default
                                 <a class="d-flex align-items-center justify-content-center text-light pl-2"
-                                    href="lang/ro">Ro</a>
+                                    href="/lang/ro">Ro</a>
                                 @endswitch
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"
                                     style="min-width:4rem !important">
-                                    <a class="dropdown-item" href="lang/ro">Ro</a>
-                                    <a class="dropdown-item" href="lang/en">En</a>
+                                    <a class="dropdown-item" href="/lang/ro">Ro</a>
+                                    <a class="dropdown-item" href="/lang/en">En</a>
                                 </div>
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

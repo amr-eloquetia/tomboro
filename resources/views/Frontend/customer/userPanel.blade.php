@@ -58,16 +58,24 @@
                     <h3 class="title">Upcoming Draw</h3>
                     <div class="draw-ticket-slider">
                         @foreach ($my_tickets as $key => $ticket)
-
-
                         <div class="draw-single-ticket">
                             <div class="draw-single-ticket__header">
-                                <div class="left">Ticket{{ $key + 1 }}</div>
-                                <div class="right">Contest No:{{ $ticket->prize_id }}</div>
+                                @foreach ($prizes as $key => $prize)
+                                @if($prize->id == $ticket->prize_id)
+                                <div class="left">{{ $prize->name }}</div>
+                                @endif
+                                @endforeach
                             </div>
-
+                            <div class="draw-single-ticket__header">
+                                <div class="right">
+                                    <p>{{ trans('translation.Bilete') }}:{{ $ticket->ticket_number }}</p>
+                                </div>
+                                <div class="">
+                                    <p>{{ trans('translation.Concurs') }} No:{{ $ticket->prize_id }}</p>
+                                </div>
+                            </div>
                             <p>
-                                {{ $ticket->ticket_number }}
+
                             </p>
                         </div><!-- draw-single-ticket end -->
 

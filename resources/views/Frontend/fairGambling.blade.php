@@ -4,7 +4,7 @@
     {{-- <div class="bg-shape"><img src="{{ URL::asset('assets/images/elements/inner-hero-shape.png') }}" alt="image">
     </div>
     <div class="container"> --}}
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-6">
                 <ul class="page-list">
                     <li><a href="{{ URL::route('home') }}">Home</a></li>
@@ -12,14 +12,16 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
-<section class="pb-120 mt-minus-300">
+<section class="pb-120">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="checkout-area">
-                    <div class="row" style="display: flex; flex-direction:column">
+                    {{!! trans('translation.fair gambling page') !!}}
+
+                    {{-- <div class="row" style="display: flex; flex-direction:column">
                         <h2>Fair gambling explained at tombola</h2><br>
                         <p>If you’re new to bingo, or even gambling in general, you may not only be wondering how it
                             works,
@@ -62,7 +64,7 @@
                             For more information about tombola and playing with us please head to our Bingo Advice, Help
                             and
                             FAQs page.</p>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

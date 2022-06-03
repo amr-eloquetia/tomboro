@@ -113,6 +113,7 @@ class TicketsController extends Controller
      */
     public function update(Request $request)
     {
+        $prizes = Prizes::all();
         $data = $request->input();
         $user_id = Auth::user()->id;
         $ticket_numbers = $data['ticket_number'];
@@ -137,7 +138,7 @@ class TicketsController extends Controller
 
 
 
-        return view('Frontend.customer.userPanel', compact('my_tickets'))->with('success', 'Tickets bought successfully!');
+        return view('Frontend.customer.userPanel', compact('my_tickets','prizes'))->with('success', 'Tickets bought successfully!');
 
 
 

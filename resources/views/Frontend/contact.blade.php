@@ -90,52 +90,6 @@
                 </div>
             </div>
         </div>
-        <div class="row pt-120 mb-none-30">
-            <div class="col-lg-3 col-sm-6 mb-30">
-                <div class="social-card">
-                    <div class="social-card__icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <div class="social-card__content">
-                        <h3>130k</h3>
-                        <span>Followers</span>
-                    </div>
-                </div><!-- social-card end -->
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-30">
-                <div class="social-card">
-                    <div class="social-card__icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="social-card__content">
-                        <h3>35k</h3>
-                        <span>Members</span>
-                    </div>
-                </div><!-- social-card end -->
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-30">
-                <div class="social-card">
-                    <div class="social-card__icon">
-                        <i class="fab fa-twitter"></i>
-                    </div>
-                    <div class="social-card__content">
-                        <h3>47k</h3>
-                        <span>Followers</span>
-                    </div>
-                </div><!-- social-card end -->
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-30">
-                <div class="social-card">
-                    <div class="social-card__icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="social-card__content">
-                        <h3>29k</h3>
-                        <span>Subscribers</span>
-                    </div>
-                </div><!-- social-card end -->
-            </div>
-        </div>
     </div>
 </section>
 <!-- contact section end -->

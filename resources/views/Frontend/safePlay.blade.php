@@ -19,7 +19,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="checkout-area">
-                    <div class="row" style="display: flex; flex-direction:column">
+                    {{!! trans('translation.Safe Play') !!}}
+
+                    {{-- <div class="row" style="display: flex; flex-direction:column">
                         <h2>Tomboro SafePlay</h2><br>
                         <p>We want you to have fun when you’re playing on tombola.co.uk and tombolaarcade.co.uk, but it
                             is
@@ -161,7 +163,7 @@
                             developed a gambling problem. If you would like some advice and support then, contact
                             Gamcare on
                             their helpline.</p>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

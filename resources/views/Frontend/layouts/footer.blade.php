@@ -28,10 +28,12 @@
                     <li><a href="{{ URL::route('aboutUs') }}">{{ trans('translation.despre noi') }}</a></li>
                     <li><a href="{{ URL::route('faq') }}">FAQs</a></li>
                     <li><a href="{{ URL::route('contact') }}">Contact</a></li>
-                    <li><a href="{{ URL::route('fairGambling') }}">Fair Gambling</a></li>
-                    <li><a href="{{ URL::route('safePlay') }}">Safe Play</a></li>
+                    <li><a href="{{ URL::route('fairGambling') }}">{{ trans('translation.jocuri de noroc echitabile')
+                            }}</a></li>
+                    <li><a href="{{ URL::route('safePlay') }}">{{ trans('translation.joc sigur') }}</a></li>
                     <li><a href="{{ URL::route('terms') }}">{{ trans('translation.termeni si conditii') }}</a></li>
-                    <li><a href="{{ URL::route('privacy') }}">Privacy</a></li>
+                    <li><a href="{{ URL::route('privacy') }}">{{ trans('translation.politica de confidențialitate')
+                            }}</a></li>
                 </ul>
             </div>
         </div>

@@ -19,7 +19,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="checkout-area">
-                    <div class="row" style="display: flex; flex-direction:column">
+                    {{!! trans('translation.Terms and conditions Page') !!}}
+
+                    {{-- <div class="row" style="display: flex; flex-direction:column">
                         <h2>Terms And Conditions</h2>
                         <p>Secțiunile următoare explică regulile care guvernează toate tranzacțiile efectuate prin
                             intermediul site-urilor web de acest tip. Vă rugăm să citiți cu atenție termenii și
@@ -161,7 +163,7 @@
                             că nu am reușit să ducem la bun sfârșit îndeplinirea obligațiilor noastre, ne puteți
                             contacta la support@tomboro.ro. </p>
                         <br>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

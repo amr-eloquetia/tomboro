@@ -79,6 +79,9 @@ Route::group(['prefix' => '/admin', 'middleware' => 'auth'], function () {
     Route::get('/dashboard/editPrize/{id}', [DashboardController::class, 'editPrize'])->name('edit.prize');
     Route::get('/dashboard/createPrize', [DashboardController::class, 'createPrize'])->name('prize.create.get');
     Route::post('/dashboard/createPrize', [PrizesController::class, 'create'])->name('prize.create.post');
+    Route::get('/dashboard/tickets', [DashboardController::class, 'tickets'])->name('dashboard.tickets');
+    Route::get('/dashboard/generateTickets}', [DashboardController::class, 'generateTickets'])->name('get.generateTickets');
+    Route::post('/dashboard/generateTickets}', [TicketsController::class, 'create'])->name('post.generateTickets');
 
 
     Route::post('/dashboard/deletePrize/{id}', [PrizesController::class, 'destroy'])->name('delete.prize');

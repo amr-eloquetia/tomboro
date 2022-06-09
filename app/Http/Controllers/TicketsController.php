@@ -6,6 +6,9 @@ use App\Models\Prizes;
 use App\Models\Tickets;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 
 class TicketsController extends Controller
 {
@@ -25,9 +28,39 @@ class TicketsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $data = $request->input();
+
+        // $tickets = New Tickets();
+        $validator = Validator::make($data, [
+            'price' => 'required',
+            'availability' => 'required',
+            'prize_id' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            Session::flash('alert', [
+                'status' => 'error',
+                'message' => 'Check the errors below'
+            ]);
+            return Redirect::back()->withInput()->withErrors($validator->errors());
+        }
+        $howManyTickets = $data['howmanyTickets'];
+        for ($i = 0; $i < $howManyTickets; $i++) {
+        $tickets = New Tickets();
+        $tickets->price = $data['price'];
+        $tickets->availability = $data['availability'];
+        $tickets->prize_id = $data['prize_id'];
+        $tickets->ticket_number = mt_rand(100000, 999999);
+        $tickets->owner_id = 0;
+        $tickets->save();
+        }
+        Session::flash('alert', [
+            'status' => 'success',
+            'message' => 'Prize Created'
+        ]);
+        return Redirect::route('dashboard.tickets');
     }
 
     /**

@@ -63,6 +63,15 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{route('dashboard.tickets')}}"
+                        class="nav-link {{(request()->segment(2) == 'dashboard' ? 'active' : '')}}">
+                        <i class="nav-icon fas  fa-list-alt"></i>
+                        <p>
+                            Tickets
+                        </p>
+                    </a>
+                </li>
                 <li class="nav-item mt-5">
                     <a href="{{route('logout')}}" class="nav-link text-warning">
                         <i class="nav-icon fas fa-sign-out-alt"></i>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Prizes;
+use App\Models\Tickets;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -50,5 +51,15 @@ class DashboardController extends Controller
     public function createPrize()
     {
         return view('dashboard.prizeCreate');
+    }
+    public function tickets()
+    {
+        $tickets = Tickets::all();
+        return view('dashboard.tickets')->with(compact('tickets'));
+    }
+    public function generateTickets()
+    {
+
+        return view('dashboard.ticketsGenerate');
     }
 }

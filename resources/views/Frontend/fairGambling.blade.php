@@ -70,8 +70,3 @@
         </div>
 </section>
 @endsection
-<style>
-    h2 {
-        text-align: center;
-    }
-</style>

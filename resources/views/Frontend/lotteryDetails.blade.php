@@ -40,7 +40,8 @@
                                         href="{{ route('add.to.cart', $ticket->id) }}">{{ trans('translation.adăugați')
                                         }}</a>
                                 </p>
-                            </div><!-- lottery-single end -->
+                            </div>
+                            <!-- lottery-single end -->
                         </div>
                         @endif
                         @endforeach

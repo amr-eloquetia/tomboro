@@ -31,25 +31,22 @@
             <td>{{ $ticket->prize_id }}</td>
             <td>{{ $ticket->owner_id }}</td>
             <td>
-                {{-- <div style="display: flex;">
-
-                    <a class="mr-2" style="color:white" href="{{ route('edit.user', $user->id) }}"> <button
-                            type="button" class="btn btn-success">edit </button></a>
-
-                    <form method="POST" action="{{ route('delete.user', $user->id) }}">
+                <div style="display: flex;">
+                    <form method="POST" action="{{ route('delete.ticket', $ticket->id) }}">
                         @csrf
                         <button type="submit" class="btn btn-danger btn-icon">
                             <i data-feather="delete">Delete</i>
                         </button>
-
                     </form>
-                </div> --}}
+                </div>
             </td>
         </tr>
         @endforeach
 
     </tbody>
 </table>
+<div class="col-md-12 d-flex justify-content-center">{{ $tickets->links() }}</div>
+
 @endsection
 <style>
     tr {

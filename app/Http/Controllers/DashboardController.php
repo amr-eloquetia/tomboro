@@ -54,7 +54,7 @@ class DashboardController extends Controller
     }
     public function tickets()
     {
-        $tickets = Tickets::all();
+        $tickets = Tickets::paginate(12);;
         return view('dashboard.tickets')->with(compact('tickets'));
     }
     public function generateTickets()

@@ -183,8 +183,12 @@ class TicketsController extends Controller
      * @param  \App\Models\Tickets  $tickets
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Tickets $tickets)
+    public function destroy($id)
     {
-        //
+        $ticket = Tickets::find($id);
+
+        $ticket->delete();
+
+        return redirect()->route('dashboard.tickets')->with('success', 'Ticket deleted');
     }
 }

@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Prizes;
 use App\Models\Tickets;
 use App\Models\User;
+use App\Models\Winners;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -59,7 +60,17 @@ class DashboardController extends Controller
     }
     public function generateTickets()
     {
-
         return view('dashboard.ticketsGenerate');
+    }
+    public function winners()
+    {
+        $winners = Winners::all();
+        $tickets = Tickets::all();
+        $users = User::all();
+        return view('dashboard.winners')->with(compact('winners','tickets','users'));
+    }
+    public function createWinner()
+    {
+        return view('dashboard.createWinner');
     }
 }

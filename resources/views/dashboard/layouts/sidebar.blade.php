@@ -66,9 +66,18 @@
                 <li class="nav-item">
                     <a href="{{route('dashboard.tickets')}}"
                         class="nav-link {{(request()->segment(2) == 'dashboard' ? 'active' : '')}}">
-                        <i class="nav-icon fas  fa-list-alt"></i>
+                        <i class="nav-icon fas  fa-ticket-alt"></i>
                         <p>
                             Tickets
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{route('dashboard.winners')}}"
+                        class="nav-link {{(request()->segment(2) == 'dashboard' ? 'active' : '')}}">
+                        <i class="nav-icon fas  fa-trophy"></i>
+                        <p>
+                            Winners
                         </p>
                     </a>
                 </li>

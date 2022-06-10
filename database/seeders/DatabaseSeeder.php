@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
             PrizeSeeder::class,
             CategorySeeder::class,
             TicketSeeder::class,
-            MediaSeeder::class
+            MediaSeeder::class,
+            WinnerSeeder::class,
         ]);
     }
 }

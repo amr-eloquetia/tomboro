@@ -11,6 +11,7 @@ use App\Http\Controllers\PrizesController;
 use App\Http\Controllers\StripeController;
 use App\Http\Controllers\TicketsController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\WinnersController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -73,16 +74,21 @@ Route::group(['prefix' => '/admin', 'middleware' => 'auth'], function () {
     // Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
     Route::get('/dashboard/users', [DashboardController::class, 'users'])->name('dashboard.users');
     Route::get('/dashboard/prizes', [DashboardController::class, 'prizes'])->name('dashboard.prizes');
+    Route::get('/dashboard/tickets', [DashboardController::class, 'tickets'])->name('dashboard.tickets');
+    Route::get('/dashboard/winners', [DashboardController::class, 'winners'])->name('dashboard.winners');
     Route::get('/dashboard/editusers/{id}', [DashboardController::class, 'edituser'])->name('edit.user');
     Route::put('/dashboard/editusers/{id}', [UserController::class, 'edit'])->name('editUser');
     Route::post('/dashboard/deleteUser/{id}', [UserController::class, 'destroy'])->name('delete.user');
     Route::get('/dashboard/editPrize/{id}', [DashboardController::class, 'editPrize'])->name('edit.prize');
     Route::get('/dashboard/createPrize', [DashboardController::class, 'createPrize'])->name('prize.create.get');
     Route::post('/dashboard/createPrize', [PrizesController::class, 'create'])->name('prize.create.post');
-    Route::get('/dashboard/tickets', [DashboardController::class, 'tickets'])->name('dashboard.tickets');
     Route::get('/dashboard/generateTickets}', [DashboardController::class, 'generateTickets'])->name('get.generateTickets');
     Route::post('/dashboard/generateTickets}', [TicketsController::class, 'create'])->name('post.generateTickets');
     Route::post('/dashboard/deleteTicket/{id}', [TicketsController::class, 'destroy'])->name('delete.ticket');
+    Route::post('/dashboard/winners', [TicketsController::class, 'search'])->name('search.ticket');
+    Route::get('/dashboard/createWinner', [DashboardController::class, 'createWinner'])->name('dashboard.createWinner');
+    Route::post('/dashboard/createWinner', [WinnersController::class, 'create'])->name('post.createWinner');
+    Route::post('/dashboard/createWinner/{id}', [WinnersController::class, 'destroy'])->name('delete.winner');
 
 
 

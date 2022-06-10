@@ -19,6 +19,8 @@
             <th scope="col">Availability</th>
             <th scope="col">Prize ID</th>
             <th scope="col">Owner ID</th>
+            <th scope="col">Action</th>
+
         </tr>
     </thead>
     <tbody>

@@ -66,11 +66,12 @@
                         <h4>{{ trans('translation.bilete vândute') }}</h4>
                         <div class="ticket-amount">
                             <span class="left">0</span>
-                            <span class="right">{{ $prize->ticket_amount }}</span>
-                            <div class="progressbar" data-perc="70%">
+                            <span class="right">{{ $tickets->count() }}</span>
+                            <div class="progressbar"
+                                data-perc="{{ $tickets->where('availability', 0)->count() * 100 / $tickets->count() }}%">
                                 <div class="bar"></div>
                             </div>
-                            <p>Only {{ $prize->ticket_amount * 30 / 100 }} remaining!</p>
+                            <p>Only {{ $tickets->where('availability', 1)->count() }} remaining!</p>
                         </div>
                         <div class="ticket-price">
                             <span class="amount">{{ $prize->ticket_price }} lei</span>

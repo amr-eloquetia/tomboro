@@ -21,7 +21,7 @@
                             placeholder="Ticket Number">
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-1">
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary" id="search" onclick="search()">Search</button>
                     </div>
@@ -33,7 +33,7 @@
 </div>
 <div id="winner-name"></div>
 <a href="{{ route('dashboard.createWinner') }}">
-    <button type="submit" class="btn btn-primary float-right mr-5">
+    <button type="submit" class="btn btn-primary float-right my-2">
         Create a winner
     </button></a>
 <table class="table">
@@ -49,6 +49,8 @@
             <th scope="col">Details</th>
             <th scope="col">Category ID</th>
             <th scope="col">Date</th>
+            <th scope="col">Action</th>
+
 
         </tr>
     </thead>

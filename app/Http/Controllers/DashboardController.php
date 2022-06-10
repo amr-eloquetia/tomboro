@@ -26,8 +26,9 @@ class DashboardController extends Controller
     }
     public function prizes()
     {
+        $tickets = Tickets::all();
         $prizes = Prizes::all();
-        return view('dashboard.prizes')->with(compact('prizes'));
+        return view('dashboard.prizes')->with(compact('prizes', 'tickets'));
     }
     public function edituser($id)
     {

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Media;
 use App\Models\Prizes;
+use App\Models\Tickets;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
@@ -198,7 +199,10 @@ class PrizesController extends Controller
     public function singlePrize($prize_code)
     {
         $prize = Prizes::where('prize_code', $prize_code)->first();
-        return view('Frontend.singleContest')->with(compact('prize'));
+        $tickets = Tickets::where('prize_id', $prize->id)->get();
+
+        // dd($tickets);
+        return view('Frontend.singleContest')->with(compact('prize', 'tickets'));
     }
 
     /**

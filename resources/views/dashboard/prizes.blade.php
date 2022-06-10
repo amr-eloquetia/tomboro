@@ -22,6 +22,8 @@
             <th scope="col">Prize Date</th>
             <th scope="col">Description</th>
             <th scope="col">Details</th>
+            <th scope="col">Tickets Left</th>
+            <th scope="col">Tickets Sold</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -52,6 +54,13 @@
                 $prize->description }}</td>
             <td style="max-width:200px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ $prize->details
                 }}</td>
+
+            <td class="text-center">{{ $tickets->where('prize_id', $prize->id)->where('availability', 1)->count() }}
+            </td>
+            <td class="text-center">{{ $tickets->where('prize_id', $prize->id)->where('availability', 0)->count() }}
+            </td>
+
+
             <td>
                 <div style="display: flex;">
 

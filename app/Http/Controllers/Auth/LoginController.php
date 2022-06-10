@@ -72,7 +72,7 @@ class LoginController extends Controller
 
         if ($validator->fails()) {
             Session::flash('alert', [
-                'type' => 'error',
+                'status' => 'error',
                 'message' => 'Check the errors below'
             ]);
             return Redirect::back()->withInput()->exceptInput('password')->withErrors($validator->errors());
@@ -88,7 +88,7 @@ class LoginController extends Controller
             else
                 return Redirect::route('userPanel');
         } else {
-            Session::flash('alert', [
+            Session::flash('alert-danger', [
                 'status' => 'danger',
                 'message' => 'Bad credentials'
             ]);

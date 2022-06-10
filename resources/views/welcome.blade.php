@@ -5,6 +5,13 @@
 <section class="hero"
     style="padding-top: 200px !important; background-image: none !important; padding-bottom:0 !important">
     <div class="container">
+        @if(Session::has('alert-danger'))
+        <div class="alert alert-danger alert-dismissible p-2">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <a data-toggle="modal" data-target="#loginModal"><strong>Error: Wrong Credentials Please check your email
+                    and password</strong></a>
+        </div>
+        @endif
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="hero__content col-lg-12">
@@ -14,6 +21,7 @@
         </div>
     </div>
 </section>
+
 {{-- how to play --}}
 <section class="position-relative overflow-hidden" style="padding:20px 0 80px 0">
     {{-- <div class="play-elements wow bounceIn" data-wow-duration="0.5s" data-wow-delay="0.7s">

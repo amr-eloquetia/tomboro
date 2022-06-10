@@ -160,6 +160,7 @@ return [
     'jocuri de noroc echitabile' => 'Fair Gaming',
     'joc sigur' => 'Safe Play',
     'politica de confidențialitate' => 'Privacy Policy',
+    'login error' => 'Error: Wrong credentials Please check your email and password',
 
     //fair gambling
 

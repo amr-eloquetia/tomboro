@@ -161,7 +161,7 @@ return [
     'jocuri de noroc echitabile' => 'Joaca Echilibrat',
     'joc sigur' => 'Joc Sigur',
     'politica de confidențialitate' => 'Confidențialitate',
-
+    'login error' => 'Eroare: Credențiale greșite Vă rugăm să vă verificați e-mailul și parola',
     //fair gambling
 
     'fair gambling page' => '<div class="row" style="display: flex; flex-direction:column">

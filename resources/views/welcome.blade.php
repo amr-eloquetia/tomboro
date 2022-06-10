@@ -8,8 +8,7 @@
         @if(Session::has('alert-danger'))
         <div class="alert alert-danger alert-dismissible p-2">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <a data-toggle="modal" data-target="#loginModal"><strong>Error: Wrong Credentials Please check your email
-                    and password</strong></a>
+            <a data-toggle="modal" data-target="#loginModal"><strong>{{ trans('translation.login error') }}</strong></a>
         </div>
         @endif
         <div class="row justify-content-center">

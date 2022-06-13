@@ -19,7 +19,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="checkout-area">
-                    <div class="row" style="display: flex; flex-direction:column">
+                    {{!! trans('translation.privacy policy') !!}}
+                    {{-- <div class="row" style="display: flex; flex-direction:column">
                         <h2>Privacy policy</h2>
                         <h3>Introduction</h3>
                         <p>
@@ -584,7 +585,7 @@
                             <li>• E-mail: support@tomboro.ro</li>
                             <li>• Last updated on 20/03/2022</li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

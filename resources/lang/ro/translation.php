@@ -357,5 +357,365 @@ return [
                                             contacta la support@tomboro.ro. </p>
                                         <br>
                                     </div>',
+    'privacy policy' => '<div class="row" style="display: flex; flex-direction:column">
+                                    <h2>Politica de confidentialitate</h2>
+                                    <h3>Introducere</h3>
+                                    <p>
+                                    În calitate de "operator de date" (ceea ce înseamnă că suntem responsabili pentru a decide ce informații personale colectăm despre dumneavoastră și pentru ce motive le folosim),
+                                    Tombola (International) plc se angajează să vă protejeze și să vă respecte confidențialitatea.<br>
+                                    Daca aveți nevoie de orice întrebări referitoare la datele dumneavoastră personale, contactați-ne la support@tomboro.ro.
+                                    </p><br>
+                                    <p>Vă rugăm să citiți următoarea politică pentru a înțelege modul în care colectăm și utilizăm informațiile despre utilizatorii site-urilor noastre web,
+                                     tombola bingo www.tombola.co.uk și tombola arcade www.tomboro.ro, inclusiv versiunile site-urilor noastre web vizualizate pe telefoane mobile,
+                                    tablete sau alte dispozitive electronice (în toate cazurile denumite "site-uri web").
+                                    Politica de confidențialitate trebuie citită împreună cu Termenii și Condițiile tombola și cu orice termeni suplimentari aplicabile postați pe site-urile web.
+                                    </p><br>
+                                    <h3>Informații colectate</h3>
+                                    <p>Colectăm informații de la dvs. atunci când vizitați site-ul nostru web, utilizați aplicația noastră.
+                                    Uneori, aceste informații ne sunt furnizate de dumneavoastră - cum ar fi atunci când vă înregistrați pentru prima dată și când utilizați produsele noastre sau luați legătura cu noi.
+                                    furnizarea de informații către noi este voluntară; cu toate acestea,
+                                     dacă nu ne furnizați informații privind tranzacțiile sau informații privind preferințele, este posibil să nu vă putem furniza serviciul nostru sau părți din acesta sau să nu vă putem furniza actualizări.
+                                    </p><br>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                                <p>Categoria de date cu caracter personal</p>
+                                            </th>
+                                            <th>
+                                                <p>Exemple de date cu caracter personal</p>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații de contact</p>
+                                            </td>
+                                            <td>
+                                                <p>Nume, adresă, adresă de e-mail, număr de telefon</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind tranzacția</p>
+                                            </td>
+                                            <td>
+                                                <p>Informații de contact, împreună cu numele dvs. de utilizator, detaliile contului online, depozitele efectuate și retrase,
+                                                mizele plasate, detaliile de plată, orice comunicări pe care le avem despre achizițiile dvs., jocurile jucate</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații juridice: </p>
+                                            </td>
+                                            <td>
+                                                <p>Data nașterii dumneavoastră, verificări de fraudă sau semnalări ridicate cu privire la tranzacțiile dumneavoastră, refuzuri de carduri de plată, reclamații.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind preferințele</p>
+                                            </td>
+                                            <td>
+                                                <p>Preferințele dvs. de marketing, setările contului dvs., inclusiv orice preferințe implicite, orice preferințe pe care le-am observat,
+                                                cum ar fi tipurile de oferte care vă interesează sau zonele de pe site-ul nostru pe care le vizitați.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Comunicări cu noi</p>
+                                            </td>
+                                            <td>
+                                                <p> Comunicările pe care le putem avea cu dumneavoastră, indiferent dacă sunt legate de o tranzacție sau nu.
+                                                Vă rugăm să rețineți că apelurile către echipa noastră de servicii pentru clienți pot fi înregistrate
+                                                </p>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații voluntare</p>
+                                            </td>
+                                            <td>
+                                                <p>Orice informații voluntare pe care ni le furnizați, cum ar fi sexul dumneavoastră, răspunsurile la sondaje sau participări la concursuri, tipurile dumneavoastră preferate de jocuri online.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații observate</p>
+                                            </td>
+                                            <td>
+                                                <p>Detalii despre activitățile dvs. de navigare online pe site-ul nostru web, cum ar fi paginile,
+                                                produsele sau zonele din site-ul nostru web pe care le vizitați sau ce link v-a adus pe site-ul nostru web din comunicările noastre prin e-mail sau de pe alte site-uri web.<br>
+                                                Aceste informații pot fi identificabile pentru că sunteți conectat la contul dvs. sau pentru că am colectat detalii despre adresa dvs.
+                                                IP sau despre dispozitivul pe care l-ați utilizat pentru a accesa site-ul web. Aceasta va colecta, de asemenea,
+                                                regiunea geografică în care dispozitivul dvs. ne raportează că vă aflați.<br>
+                                                Specific clienților: Atunci când vă conectați la contul dvs., colectăm informații despre dispozitivul dvs. (marca și modelul) și de la browserul dvs.
+                                                web, cum ar fi tipul și versiunea browserului, adresa IP (pentru a valida locația) și Browser User Agent (pentru a vă îmbunătăți experiența pe site) și generăm un identificator unic de dispozitiv pentru dvs.
+                                                pe tombola sau folosim identificatorul real al dispozitivului generat de iOS și Android atunci când utilizați aplicația. Utilizăm cookie-uri de urmărire globală și de sesiune pentru fraudă și urmărirea parcursului
+                                                utilizatorului pentru a maximiza experiența utilizatorului și fluxul prin site-urile noastre web și folosim cookie-uri de solicitare pentru a ne ajuta să diagnosticăm dacă utilizatorii au probleme pe site-urile web.
+                                                Pentru mai multe informații despre modulele cookie, vă rugăm să consultați politica noastră privind modulele cookie.<br>
+                                                Utilizatori de site-uri web = Google Analytics colectează date anonime despre timpul petrecut pe site-ul web,
+                                                despre parcursul clienților pe site și despre site-urile de pe care vin și către care se îndreaptă utilizatorii, fără a le lega de anumiți utilizatori.</p>
+                                            </td>
+                                        </tr>
+                                    </table><br>
+                                    <h3>Scopuri</h3><br>
+                                    <p>Utilizăm datele cu caracter personal pe care le colectăm despre dumneavoastră în diverse scopuri. Pentru a face acest lucru, trebuie să ne bazăm pe un anumit "temei legal" pentru a prelucra aceste date cu caracter personal.
+                                    Tabelele de mai jos stabilesc în ce bază prelucrăm diferite informații despre dvs., o explicație a scopului prelucrării respective și drepturile specifice în legătură cu datele dvs. personale,
+                                    care pot depinde de baza pentru care le prelucrăm.</p><br>
+                                    <table>
+                                        <th>
+                                            <p>Ce date cu caracter personal folosim?</p>
+                                        </th>
+                                        <th>
+                                            <p>Temeiul juridic și scopul</p>
+                                        </th>
+                                        <tr>
+                                            <td>
+                                                <p>Informații de contact <br> Informații observate</p>
+                                            </td>
+                                            <td>
+                                                <p>Consimțământ: pentru a vă trimite marketing direct în conformitate cu preferințele pe care le selectați atunci când vă înscrieți pentru a primi actualizări,
+                                                cumpărați produse sau prin intermediul centrului nostru de preferințe.<br>
+                                                Pentru a colecta anumite date cu caracter personal despre dvs. prin intermediul cookie-urilor sau al altor tehnologii similare, așa cum este descris mai pe larg în Politica noastră privind cookie-urile.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind tranzacțiile</p>
+                                            </td>
+                                            <td>
+                                                <p>Executarea contractului nostru cu dvs.: pentru a prelua plata pentru serviciile noastre și pentru a vă furniza serviciile noastre,
+                                                pentru a răspunde la orice întrebări de asistență pentru clienți și pentru a oferi servicii de asistență pentru clienți sau orice servicii post-vânzare.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații juridice, informații privind tranzacțiile, comunicări (dacă este cazul), informații privind preferințele în cazul preferințelor de marketing și cookie-uri: Respectarea obligațiilor legale:
+                                                    Pentru a vă confirma identitatea și vârsta, pentru a păstra înregistrările cerute de lege sau pentru a dovedi conformitatea noastră cu legile, inclusiv legile fiscale, legile privind protecția consumatorilor,
+                                                    cerințele noastre de reglementare și legile privind protecția datelor. Pentru a furniza informații agențiilor de aplicare a legii sau altor autorități în cazul în care ni se cere acest lucru.</p>
+                                            </td>
+                                            <td>
+                                                <p> Informații privind tranzacțiile, Informații juridice, Comunicări, Informații privind preferințele: Interesele noastre legitime:
+                                                    Pentru administrarea internă a afacerii noastre, pentru a gestiona conturile Player, inclusiv pentru a ține evidența generală a clienților,
+                                                    a vânzărilor, a serviciilor de asistență pentru clienți și a altor interacțiuni, precum și pentru a monitoriza, investiga și proteja clienții autentici și afacerea noastră împotriva fraudei,
+                                                    pentru a reduce la minimum riscul de utilizare a unor detalii false și de utilizare abuzivă a detaliilor cardurilor de către escroci. Acest lucru este necesar pentru a ne permite să funcționăm eficient,
+                                                    să rezolvăm orice probleme care pot apărea și să ne protejăm pe noi înșine împotriva oricăror pretenții legale viitoare și pe noi înșine și pe alții împotriva tranzacțiilor frauduloase.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații de contact, Informații de preferință, Comunicări, Informații voluntare</p>
+                                            </td>
+                                            <td>
+                                                <p>Pentru a gestiona orice concursuri sau alte promoții la care ați ales să participați.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind tranzacțiile, Informații privind preferințele Comunicări, Informații privind preferințele, Informații voluntare, Informații observate</p>
+                                            </td>
+                                            <td>
+                                                <p> Pentru a vă direcționa marketingul nostru direct către dumneavoastră (în cazul în care v-ați dat consimțământul pentru primirea acestuia):
+                                                Acest lucru înseamnă că folosim informațiile pe care ni le furnizați și pe care le observăm din interacțiunile dvs.
+                                                cu noi pentru a construi o imagine mai bună a tipului de oferte și produse/servicii pe care le putem oferi și care v-ar putea interesa,
+                                                astfel încât comunicările pe care le primiți să fie mai relevante pentru dvs. Fără utilizarea acestor informații,
+                                                am putea să vă trimitem doar comunicări generice și am prefera să nu vă aglomerăm cutia poștală! Considerăm că acest lucru este justificat,
+                                                deoarece aveți controlul asupra faptului dacă primiți sau nu marketingul nostru direct, prin intermediul centrului nostru de preferințe și de fiecare dată când vă contactăm.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind tranzacțiile, Informații privind preferințele Comunicări, Informații privind preferințele, Informații voluntare, Informații observate</p>
+                                            </td>
+                                            <td>
+                                                <p>Pentru a ne îmbunătăți activitatea de marketing în general: Acest lucru înseamnă că folosim informații despre dumneavoastră și despre ceilalți clienți ai
+                                                noștri pentru a afla ce funcționează și ce nu funcționează în ceea ce privește activitatea noastră de marketing sau performanța noastră de vânzări, astfel încât să putem dezvolta site-urile,
+                                                produsele și ofertele noastre pentru a fi mai relevante pentru clienții noștri în general, pentru a îmbunătăți experiența dumneavoastră online și produsele pe care le oferim. De asemenea,
+                                                vom utiliza informațiile furnizate de dispozitivul dvs. pentru a vă recomanda site-ul web geografic dorit pentru locația în care acesta raportează că vă aflați.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Informații privind tranzacția Informații de contact Informații de contact Informații observate: </p>
+                                            </td>
+                                            <td>
+                                                <p>Monitorizăm utilizarea de către clienți a serviciilor noastre pentru a identifica clienții care ar putea avea nevoie de sprijin și pentru a le oferi sprijin clienților
+                                                (inclusiv prin stabilirea și monitorizarea limitelor de miză/depozit) în ceea ce privește utilizarea și frecvența utilizării jocurilor noastre online,
+                                                conform cerințelor Comisiei pentru Jocuri de Noroc.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Transaction information, Preference
+                                                    information
+                                                    Communications, Preference information, Voluntary information, Observed
+                                                    information</p>
+                                            </td>
+                                            <td>
+                                                <p>To improve our marketing activity more generally: This means we use information
+                                                    about you and about our other customers to work out what is working and what is
+                                                    not
+                                                    in terms of our marketing activity or our sales performance, so that we can
+                                                    develop
+                                                    our websites, products and offers to be more relevant to our customers
+                                                    generally, to
+                                                    improve your online experience and the products we offer. We will also use
+                                                    information provided by your device to recommend the intended geographic website
+                                                    for
+                                                    the location it reports you as being in.</p>
+                                            </td>
+                                        </tr>
+                                    </table><br>
+
+                                    <h3>Solicitarea drepturilor dumneavoastră</h3><br>
+                                    <p>Aveți anumite drepturi legale, care sunt rezumate pe scurt mai jos, în legătură cu orice date cu caracter personal pe care le deținem despre dumneavoastră.<br>
+                                    În cazul în care prelucrarea de către noi a datelor dumneavoastră cu caracter personal se bazează pe consimțământul dumneavoastră, aveți dreptul de a vă retrage consimțământul în orice moment.
+                                    Dacă decideți să vă retrageți consimțământul, vom înceta să vă mai prelucrăm datele cu caracter personal în acest scop,
+                                    cu excepția cazului în care există un alt temei legal pe care ne putem baza - caz în care vă vom anunța. Retragerea consimțământului dvs. nu va avea niciun impact asupra prelucrării noastre de până atunci.<br>
+                                    În cazul în care prelucrarea datelor dvs. cu caracter personal este necesară pentru interesele noastre legitime, puteți să vă opuneți acestei prelucrări în orice moment. Dacă faceți acest lucru,
+                                    va trebui să arătăm fie un motiv imperios pentru care prelucrarea noastră ar trebui să continue, care prevalează asupra intereselor, drepturilor și libertăților dumneavoastră,
+                                    fie că prelucrarea este necesară pentru a stabili, exercita sau apăra un drept legal.</p><br>
+                                    <table>
+                                        <th>
+                                            <p>Drepturile tale</p>
+                                        </th>
+                                        <th>
+                                            <p>Ce inseamna?</p>
+                                        </th>
+                                        <th>
+                                            <p>Obligatiile tale</p>
+                                        </th>
+                                        <tr>
+                                            <td>
+                                                <p>Dreptul de acces</p>
+                                            </td>
+                                            <td>
+                                                <p>Sub rezerva anumitor condiții, aveți dreptul de a avea acces la datele dumneavoastră cu caracter personal (acest lucru este cunoscut mai degrabă sub denumirea de "cerere de acces la datele cu caracter personal").</p>
+                                            </td>
+                                            <td>
+                                                <p>Dacă este posibil, ar trebui să specificați tipul de informații pe care doriți să le vedeți pentru a vă asigura că dezvăluirea noastră răspunde așteptărilor dumneavoastră. Trebuie să fim în măsură să vă verificăm identitatea. Solicitarea dvs.
+                                                nu trebuie să aibă un impact asupra drepturilor și libertăților altor persoane, de exemplu, asupra dreptului la viață privată și confidențialitate al altor persoane..</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Dreptul la portabilitatea datelor</p>
+                                            </td>
+                                            <td>
+                                                <p>Sub rezerva anumitor condiții, aveți dreptul de a primi datele cu caracter personal pe care ni le-ați furnizat și care sunt prelucrate de noi prin mijloace automatizate,
+                                                într-un format structurat, utilizat în mod obișnuit și care poate fi citit automat.</p>
+                                            </td>
+                                            <td>
+                                                <p>În cazul în care vă exercitați acest drept, ar trebui să specificați tipul de informații pe care doriți să le primiți (și unde ar trebui să le trimitem),
+                                                atunci când este posibil, pentru a ne asigura că dezvăluirea noastră răspunde așteptărilor dumneavoastră.
+                                                Acest drept se aplică numai dacă prelucrarea se bazează pe consimțământul dvs. sau pe contractul nostru cu dvs.
+                                                și atunci când prelucrarea este efectuată prin mijloace automatizate (adică nu pentru înregistrările pe hârtie).
+                                                Acesta acoperă numai datele cu caracter personal care ne-au fost furnizate de dumneavoastră.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Drepturi în legătură cu datele personale inexacte sau incomplete</p>
+                                            </td>
+                                            <td>
+                                                <p>Puteți contesta acuratețea sau caracterul complet al datelor dumneavoastră cu caracter personal și puteți solicita corectarea sau completarea acestora, după caz.<br>
+                                                Vă încurajăm să ne comunicați orice modificări cu privire la datele dvs. cu caracter personal imediat ce acestea au loc, inclusiv modificări ale datelor dvs. de contact, ale numărului de telefon.</p>
+                                            </td>
+                                            <td>
+                                                <p>Acest drept se aplică numai datelor dvs. personale. Atunci când vă exercitați acest drept, vă rugăm să fiți cât mai specific posibil.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Dreptul de a vă opune sau de a restricționa prelucrarea datelor noastre</p>
+                                            </td>
+                                            <td>
+                                                <p>Sub rezerva anumitor condiții, aveți dreptul de a vă opune sau de a ne cere să restricționăm prelucrarea datelor dumneavoastră cu caracter personal.</p>
+                                            </td>
+                                            <td>
+                                                <p>După cum s-a menționat mai sus, acest drept se aplică în cazul în care prelucrarea datelor dvs. cu caracter personal este necesară pentru interesele noastre legitime.
+                                                De asemenea, vă puteți opune prelucrării de către noi a datelor dvs. personale în scopuri de marketing direct.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Dreptul la ștergere</p>
+                                            </td>
+                                            <td>
+                                                <p>Sub rezerva anumitor condiții, aveți dreptul de a vă șterge datele cu caracter personal (cunoscut și sub numele de "dreptul de a fi uitat"), de exemplu, atunci când datele dvs.
+                                                personale nu mai sunt necesare în scopurile pentru care au fost colectate sau atunci când prelucrarea relevantă este ilegală.</p>
+                                            </td>
+                                            <td>
+                                                <p>Este posibil să nu fim în măsură să ștergem datele dvs. cu caracter personal, dacă, de exemplu, A) avem nevoie de ele pentru a respecta o obligație legală sau B) pentru a exercita sau apăra pretenții legale.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Dreptul de retragere a consimțământului</p>
+                                            </td>
+                                            <td>
+                                                <p>După cum s-a menționat mai sus, în cazul în care prelucrarea datelor dumneavoastră cu caracter personal se bazează pe consimțământul dumneavoastră,
+                                                aveți dreptul de a vă retrage consimțământul în orice moment.</p>
+                                            </td>
+                                            <td>
+                                                <p>În cazul în care vă retrageți consimțământul, acesta va intra în vigoare doar pentru prelucrări viitoare.</p>
+                                            </td>
+                                        </tr>
+                                    </table><br>
+
+                                    <p>Dacă aveți o întrebare sau o îngrijorare cu privire la confidențialitatea și drepturile dumneavoastră pe tombola, vă rugăm să nu ezitați să ne contactați..</p>
+                                    <p>Număr de telefon gratuit: +40720517673</p>
+                                    <p>E-mail: support@tomboro</p><br>
+                                    <p>Dacă doriți să vă exercitați oricare dintre drepturile dumneavoastră, vă rugăm să contactați Responsabilul cu conformitatea datelor: dp@tomboro.ro</p>
+                                    <p>De asemenea, aveți dreptul de a depune o plângere la autoritatea locală de supraveghere. În Marea Britanie, aceasta este Biroul Comisarului pentru Informații, iar mai multe informații pot fi găsite la https://ico.org.uk/.</p><br>
+                                    <h3>Cu cine împărtășim informațiile personale și unde se află acestea?</h3><br>
+                                    <p>Datele dumneavoastră cu caracter personal pot fi prelucrate de noi și/sau de partenerii noștri de afaceri, furnizori, care subprocesează anumite servicii în numele nostru în scopurile specificate mai sus. De exemplu, împărtășim informații cu companii de verificare a securității, în scopul procesării cardului/plății, al verificării identității și securității (ratingul de credit al Clientului nu va fi afectat) sau al investigațiilor în numele Tomboro</p><br>
+                                    <p>Aceste părți terțe au acces la datele cu caracter personal numai în scopul de a presta serviciile specificate în contractul aplicabil sau pentru a se conforma legilor aplicabile și nu în niciun alt scop.</p><br>
+                                    <p>Vom avea în vigoare un acord cu furnizorii noștri de servicii care va restricționa modul în care aceștia pot prelucra datele dvs. personale și le va cere să le păstreze în siguranță.</p><br>
+                                    <p>De asemenea, este posibil să folosim furnizorii de servicii în moduri mai puțin directe, cum ar fi în furnizarea sistemelor noastre de plată și financiare, verificarea fraudelor. Putem face schimb de informații cu alte companii și organizații în scopul verificării vârstei, al curățării datelor, al protecției împotriva fraudei, al verificărilor de credit și/sau al reducerii riscurilor.</p><br>
+                                    <p>În cazul în care s-a constatat că ați fraudat sau înșelat compania sau orice serviciu, inclusiv manipularea jocului sau fraudă de plată, inclusiv carduri de credit furate, sau activitate frauduloasă (inclusiv returnarea de debit sau alte tipuri de anulare a unei plăți) sau spălare de bani, ne rezervăm dreptul de a împărtăși aceste informații, inclusiv identitatea dvs. cu alte site-uri de jocuri online, bănci, companii de credit și agenții.</p><br>
+                                    <p>Legile privind confidențialitatea datelor din țările din Uniunea Europeană, Norvegia, Islanda și Liechtenstein, (Spațiul Economic European) sunt identice sau foarte asemănătoare. Am numit această zonă "Europa" pentru ușurință. În cazul în care este necesar să transferăm informațiile dumneavoastră personale în afara Europei, vom efectua acest transfer numai dacă vom folosi o metodă aprobată ca fiind sigură din punct de vedere al confidențialității de către autoritățile de reglementare în materie de confidențialitate a datelor din Europa:</p><br>
+                                    <ul>
+                                        <li>• țara în care urmează să fie transferate informațiile cu caracter personal a fost aprobată de către aceștia;</li>
+                                        <li>• destinatarul informațiilor cu caracter personal se află în SUA și a certificat că va respecta normele Scutului de confidențialitate pentru protejarea informațiilor cu caracter personal, aprobate de către aceștia;</li>
+                                        <li>• destinatarul informațiilor personale este obligat din punct de vedere legal să protejeze informațiile dvs. personale în conformitate cu normele corporative obligatorii aprobate de către acesta;</li>
+                                        <li>• ne-am asigurat că există un contract de protejare a datelor dumneavoastră cu caracter personal cu destinatarul, folosind un model aprobat de acesta;</li>
+                                        <li>• transferul este necesar pentru un alt motiv aprobat de către aceștia, cum ar fi livrarea internațională a unui premiu la cererea dumneavoastră; sau or</li>
+                                        <li>• în cazul în care sunteți de acord în mod explicit cu transferul.</li>
+                                    </ul><br>
+                                    <p>În cazul în care orice furnizor de servicii are sediul în afara Spațiului Economic European, ne vom asigura că furnizorul este fie un abonat actual la Scutul de confidențialitate UE/SUA, fie că avem un contract adecvat pentru transferul internațional de informații personale cu acesta.</p><br>
+                                    <p>Este posibil să împărtășim oricare dintre datele dvs. cu caracter personal cu un potențial cumpărător sau cu un cumpărător al oricărei părți a afacerii noastre, pe baza intereselor noastre legitime și a intereselor cumpărătorului nostru, astfel încât acesta să poată evalua în mod corespunzător afacerea și să evalueze orice riscuri și să continue să facă afaceri cu dvs. după achiziție. În plus, este posibil să ni se ceară prin lege sau de către o instanță să dezvăluim anumite informații despre dvs. sau despre orice angajament pe care l-am putea avea cu dvs. către autoritățile de reglementare, de aplicare a legii și/sau alte autorități competente relevante. De asemenea,
+                                    este posibil să avem nevoie să împărtășim informațiile dvs. pentru a ne impune sau pentru a ne aplica drepturile legale în conformitate cu orice termeni de afaceri conveniți.</p><br>
+                                    <h3>Pentru cât timp păstrăm informațiile dumneavoastră?</h3><br>
+                                    <p>Dacă sunteți clientul nostru, vom păstra datele dvs. cu caracter personal în perioada în care contul dvs. rămâne activ și apoi, după ce contul dvs. devine inactiv, atât timp cât este necesar în legătură cu drepturile și obligațiile noastre și ale dvs. legale. Acest lucru poate însemna că păstrăm anumite tipuri de date cu caracter personal mai mult timp decât altele..</p><br>
+                                    <p>Vom păstra datele dvs. cu caracter personal doar pentru o perioadă limitată de timp. Aceasta va depinde de o serie de factori, inclusiv:</p><br>
+                                    <ul>
+                                        <li>• orice legi sau reglementări pe care trebuie să le respectăm, în special cerințele de reglementare legate de licențele noastre de jocuri de noroc online;</li>
+                                        <li>• dacă ne aflăm într-un litigiu legal sau de alt tip între noi sau cu o terță parte;</li>
+                                        <li>• ttipul de informații pe care le deținem despre dumneavoastră; și</li>
+                                        <li>• dacă dumneavoastră sau o autoritate de reglementare ne cere să păstrăm datele dumneavoastră cu caracter personal pentru un motiv valabil.</li>
+                                    </ul><br>
+
+                                    <p>Orice date cu caracter personal conținute în orice corespondență sau înregistrări legate de muncă pot fi păstrate pentru o perioadă mai lungă, în funcție de perioada de păstrare a fișierului în care sunt păstrate datele dvs. personale.</p><br>
+                                    <h3>Contul dvs.</h3><br>
+                                    <p>Accesul la informațiile din contul dvs. personal vă este restricționat prin numele de utilizator și parola unică. Toate detaliile sunt stocate sub cea mai strictă supraveghere. Dorim să asigurăm o încredere totală în Jucătorii noștri și să facem din jocul la tombolă o experiență plăcută.</p><br>
+                                    <h3>Securitate</h3><br>
+                                    <p>Am implementat politici și reguli de securitate adecvate și înțelegem pe deplin importanța securității informațiilor și necesitatea de a le stoca corect. Stocăm toate informațiile personale în cadrul unei rețele securizate, ceea ce înseamnă că datele, transmise între computerul dumneavoastră și sistemele noastre, sunt securizate cu ajutorul unei criptografii cu cheie publică. Calculatorul dumneavoastră schimbă informații cheie cu serverele noastre pentru a crea o conversație privată pe care numai calculatorul dumneavoastră și serverele noastre o pot înțelege.</p><br>
+                                    <p>Legăturile noastre cu portalurile noastre de plată folosesc tehnologie pentru a transmite orice informație de plată în siguranță. Acestea, la rândul lor, au legături criptate securizate între ele și toate băncile importante pentru a permite procesarea plății. Angajații Tombola NU au acces la detaliile complete ale cardului dumneavoastră de credit/debit.</p><br>
+                                    <h3>Protecția copiilor</h3><br>
+                                    <p>Serviciile de pe tombola nu sunt destinate sau direcționate către persoane cu vârsta sub 18 ani. Orice persoană care ne furnizează informațiile sale prin intermediul site-urilor noastre web declară că are peste 18 ani. Ne rezervăm dreptul de a accesa și de a verifica orice informații pe care ni le furnizați. În cazul în care aflăm că un minor a încercat sau a trimis informații personale prin intermediul site-urilor web, vom lua măsuri pentru a elimina aceste informații din evidențele noastre.</p><br>
+                                    <h3>Contact de marketing</h3><br>
+                                    <p>Puteți renunța în orice moment la primirea de comunicări care oferă bunuri sau servicii comerciale prin ajustarea preferințelor dvs. de contact în zona "Contul meu" de pe site-urile web sau prin trimiterea unei cereri la support@tomboro.ro în conformitate cu Politica noastră de confidențialitate.</p><br>
+                                    <p>După 48 de ore, nu veți mai primi niciun fel de marketing prin poștă directă/ e-mail/ SMS. Cu toate acestea, este posibil să avem în continuare nevoie să corespondăm cu dvs. cu privire la detaliile contului, la îndeplinirea premiilor și la alte aspecte operaționale, iar dvs. sunteți de acord să continuați să primiți aceste comunicări legate de cont chiar și după ce ați renunțat la solicitările de oferte comerciale.</p><br>
+                                    <h3>Modificări ale politicii noastre</h3><br>
+                                    <p>Ne rezervăm dreptul de a actualiza această politică de confidențialitate în orice moment, dar nu dorim să vă deranjăm cu modificări minore, așa că vă vom furniza o nouă politică de confidențialitate doar atunci când vom face actualizări cu un impact semnificativ asupra confidențialității dvs. și despre care ar trebui să știți. Cea mai recentă politică de confidențialitate, împreună cu orice alte actualizări, va fi întotdeauna disponibilă pe site-urile noastre web pentru a fi verificată. De asemenea, este posibil să vă notificăm din când în când și în alte moduri cu privire la modul în care utilizăm informațiile dumneavoastră personale. Această notă de confidențialitate a fost creată și publicată inițial în mai 2018.</p><br>
+                                    <h3>Informații de contact</h3><br>
+                                    <ul>
+                                        <li>• Număr de telefon gratuit: +40 720 517 673</li>
+                                        <li>• E-mail: support@tomboro.ro</li>
+                                        <li>• Ultima actualizare la data de 20/03/2022</li>
+                                    </ul>
+                                </div>',
 
 ];

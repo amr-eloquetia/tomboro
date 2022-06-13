@@ -36,7 +36,7 @@ class PrizesController extends Controller
         $data = $request->input();
         $validator = Validator::make($data, [
             'name' => 'required|min:3',
-            'prize_code' => 'required|min:5',
+            'prize_code' => 'required|min:3',
             'ticket_amount' => 'required',
             'ticket_price' => 'required',
             'prize_date' => 'required',

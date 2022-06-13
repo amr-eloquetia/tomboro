@@ -161,6 +161,7 @@ return [
     'joc sigur' => 'Safe Play',
     'politica de confidențialitate' => 'Privacy Policy',
     'login error' => 'Error: Wrong credentials Please check your email and password',
+    'total concursuri' => 'Total contests',
 
     //fair gambling
 

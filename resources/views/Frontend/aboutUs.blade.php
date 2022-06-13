@@ -26,28 +26,28 @@
                         <p>{{ trans('translation.about us p2') }}</p>
                     </div>
                 </div><!-- about-wrapper-->
-                <div class="row counter-wrapper style--two mb-none-30 justify-content-center">
-                    <div class="col-lg-4 col-sm-6 text-center mb-30">
+                <div class="row counter-wrapper style--two mb-none-30 justify-content-center" style="box-shadow: none">
+                    <div class="col-lg-4 col-sm-6 text-center">
                         <div class="counter-item style--two">
                             <div class="counter-item__content">
-                                <span>23</span>
-                                <p>Winners For Last Month</p>
+                                <span>{{ $winners->count() }}</span>
+                                <h4 class="text-light ">{{ trans('translation.Câștigătorii') }}</h4>
                             </div>
                         </div>
                     </div><!-- counter-item end -->
-                    <div class="col-lg-4 col-sm-6 text-center mb-30">
+                    <div class="col-lg-4 col-sm-6 text-center">
                         <div class="counter-item style--two">
                             <div class="counter-item__content">
-                                <span>2837K</span>
-                                <p>Tickets Sold</p>
+                                <span>{{ $tickets->count() + 24563}}</span>
+                                <h4 class="text-light">{{ trans('translation.bilete vândute') }}</h4>
                             </div>
                         </div>
                     </div><!-- counter-item end -->
-                    <div class="col-lg-4 col-sm-6 text-center mb-30">
+                    <div class="col-lg-4 col-sm-6 text-center">
                         <div class="counter-item style--two">
                             <div class="counter-item__content">
-                                <span>28387K</span>
-                                <p>Payouts to Winners</p>
+                                <span>{{ $prizes->count() }}</span>
+                                <h4 class="text-light">{{ trans('translation.total concursuri') }}</h4>
                             </div>
                         </div>
                     </div><!-- counter-item end -->
@@ -60,9 +60,9 @@
 
 <!-- features section start -->
 <section class="pt-120 pb-120 position-relative">
-    <div class="feature-car">
+    {{-- <div class="feature-car">
         <img src="assets/images/elements/feature-car.png" alt="image" style="max-width:90% !important">
-    </div>
+    </div> --}}
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">

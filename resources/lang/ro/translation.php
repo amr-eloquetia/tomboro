@@ -63,15 +63,15 @@ return [
     'diferit p' => 'Acestea sunt factorii cheie care ne fac diferiți: Siguranță, Socialitate, Fiabilitate și Distracție. Tomboro Loto este dedicată încrederii și siguranței.',
     'Fără comision pe câștiguri' => 'Fără comision pe câștiguri',
     'Joc sigur și securizat' => 'Joc sigur și securizat',
-    'cele mai mari jackpoturi de loterie' => 'Cele mai mari jackpoturi de loterie',
+    'cele mai mari jackpoturi de loterie' => 'Cele mai mare jackpoturi',
     'Sistem de plată instant' => 'Sistem de plată instant',
-    'Suport dedicate' => 'Suport dedicate',
+    'Suport dedicate' => 'Suport dedicat',
     'Afiliați nelimitate' => 'Afiliați nelimitate',
     'Acest concurs se încheie în' => 'Acest concurs se încheie în',
     'Intră acum pentru o șansă de a câștiga' => 'Intră acum pentru o șansă de a câștiga',
     'Acest concurs are un număr maxim de' => 'Acest concurs are un număr maxim de',
     'intrari' => 'intrari',
-    'bilete vândute' => 'bilete vândute',
+    'bilete vândute' => 'Bilete vândute',
     'pe bilet' => 'pe bilet',
     'descriere' => 'Descriere',
     'detalii de concurs' => 'Detalii de concurs',
@@ -162,6 +162,7 @@ return [
     'joc sigur' => 'Joc Sigur',
     'politica de confidențialitate' => 'Confidențialitate',
     'login error' => 'Eroare: Credențiale greșite Vă rugăm să vă verificați e-mailul și parola',
+    'total concursuri' => 'Total concursuri',
     //fair gambling
 
     'fair gambling page' => '<div class="row" style="display: flex; flex-direction:column">

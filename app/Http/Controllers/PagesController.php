@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Prizes;
 use App\Models\Tickets;
+use App\Models\Winners;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -28,7 +29,10 @@ class PagesController extends Controller
     }
     public function aboutUs()
     {
-        return view('Frontend.aboutUs');
+        $winners = Winners::all();
+        $tickets = Tickets::all();
+        $prizes = Prizes::all();
+        return view('Frontend.aboutUs', compact('winners','tickets','prizes'));
     }
     public function userPanel()
     {

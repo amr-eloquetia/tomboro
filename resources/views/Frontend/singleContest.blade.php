@@ -63,7 +63,7 @@
                             trans('translation.intrari') }}.</p>
                         <div class="contest-num">{{ trans('translation.Concurs') }} no: <span>{{ $prize->prize_code
                                 }}</span></div>
-                        <h4>{{ trans('translation.bilete vândute') }}</h4>
+                        <h4 class="text-uppercase">{{ trans('translation.bilete vândute') }}</h4>
                         <div class="ticket-amount">
                             <span class="left">0</span>
                             <span class="right">{{ $tickets->count() }}</span>

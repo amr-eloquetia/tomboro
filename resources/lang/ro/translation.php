@@ -95,7 +95,7 @@ return [
     'Numar de telefon' => 'Număr de telefon',
     'Nu ratați niciodată o tragere la sorți!' => 'Nu ratați niciodată o tragere la sorți!',
     'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale' => 'Un mod simplu de a cumpăra bilete și de a câștiga mașina visurilor tale',
-    'Tragerea la sorți a avut loc pe' => 'Tragerea la sorți a avut loc pe',
+    'Tragerea' => 'Tragerea la sorți a avut loc pe',
     'Ultimele cele mai mari numere câștigătoare' => 'Ultimele cele mai mari numere câștigătoare',
     'Faceți cunoștință cu ultimii' => 'Faceți cunoștință cu ultimii câștigători de la concursul dumneavoastră preferat',
     'Ultimii câștigători' => 'Ultimii câștigători',

@@ -100,8 +100,7 @@
                                                 <h5>{{ $winner->name }}</h5>
                                             </div>
                                             <div class="right">
-                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data
-                                                    de')
+                                                <span>{{ trans('translation.Tragerea')
                                                     }}</span>
                                                 <p>{{ $winner->date }}</p>
                                             </div>

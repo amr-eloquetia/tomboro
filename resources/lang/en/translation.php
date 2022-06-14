@@ -28,7 +28,7 @@ return [
     'Introduceti numarul biletului...' => 'Enter your ticket number...',
     'Verifica' => 'Check',
     'Numerele castigatoare' => 'Winning Numbers',
-    'Tragerea la sorti a avut loc in data de' => 'The draw was held on',
+    'Tragerea' => 'The draw was held on',
     'sortare după preț' => 'Sort by price',
     'ieftine' => 'Cheap',
     'scumpe' => 'Expensive',

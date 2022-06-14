@@ -38,7 +38,7 @@ class CategoryController extends Controller
                 'message' => 'Check the errors below',
                 'status' => 'error'
             ]);
-            dd($validator->errors());
+
             return Redirect::back()->withInput()->exceptInput('password')->withErrors($validator->errors());
         }
 
@@ -97,7 +97,6 @@ class CategoryController extends Controller
                 'message' => 'Check the errors below',
                 'status' => 'error'
             ]);
-            dd($validator->errors());
             return Redirect::back()->withInput()->exceptInput('password')->withErrors($validator->errors());
         }
 

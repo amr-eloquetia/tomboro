@@ -75,10 +75,10 @@
                                 <a class="nav-link" id="money-tab" data-toggle="tab" href="#money" role="tab"
                                     aria-controls="money" aria-selected="false">
                                     <div class="icon-thumb">
-                                        <img src="{{ URL::asset('assets/images/prize-images/bani.png') }}" alt="image"
-                                            style="width: 100px; height:100px;object-fit:cover">
+                                        <img src="{{ URL::asset('assets/images/prize-images/avion.png') }}" alt="image"
+                                            style="width: 100px; height:100px;object-fit:contain">
                                     </div>
-                                    <span>{{ trans('translation.Bani') }}</span>
+                                    <span>{{ trans('translation.vacante') }}</span>
                                 </a>
                             </li>
                         </ul>

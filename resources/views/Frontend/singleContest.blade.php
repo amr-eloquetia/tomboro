@@ -2,26 +2,12 @@
 @section('content')
 
 <!-- inner-hero-section start -->
-<div class="inner-hero-section">
-    {{-- <div class="bg-shape"><img src="{{ URL::asset('assets/images/elements/inner-hero-shape.png') }}" alt="image">
-    </div> --}}
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                {{-- <ul class="page-list">
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="#0">Lottery</a></li>
-                    <li class="active">Contest No: {{ $prize->prize_code }}</li>
-                </ul> --}}
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- inner-hero-section end -->
 
 <!-- contest-details-section start -->
 <section class="pb-120">
-    <div class="container">
+    <div class="container" style="margin-top: 200px">
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="clock-wrapper">
@@ -30,10 +16,15 @@
                 </div><!-- clock-wrapper end -->
             </div>
             <div class="col-lg-12">
+
                 <div class="contest-cart">
+                    <h4 class="text-center text-warning col-md-12">{{ trans('translation.Intră acum') }}</h4>
+
+                    <h2 class="col-md-12 text-center">{{ $prize->name }}</h2>
+
                     <div class="contest-cart__left">
                         <div class="contest-cart__slider-area">
-                            <div class="contest-cart__thumb-slider">
+                            <div class="contest-cart__thumb-slider" style="height: 400px">
                                 @foreach ($prize->medias as $media)
                                 <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image">
@@ -57,8 +48,9 @@
                         </div>
                     </div><!-- contest-cart__left end -->
                     <div class="contest-cart__right">
-                        <h4 class="subtitle">{{ trans('translation.Intră acum pentru o șansă de a câștiga') }}</h4>
-                        <h3 class="contest-name">{{ $prize->name }}</h3>
+                        {{-- <h4 class="subtitle">{{ trans('translation.Intră acum pentru o șansă de a câștiga') }}</h4>
+                        --}}
+                        {{-- <h3 class="contest-name">{{ $prize->name }}</h3> --}}
                         <p>{{ trans('translation.Acest concurs are un număr maxim de') }} {{ $prize->ticket_amount }} {{
                             trans('translation.intrari') }}.</p>
                         <div class="contest-num">{{ trans('translation.Concurs') }} no: <span>{{ $prize->prize_code
@@ -118,13 +110,14 @@
                         <div class="tab-pane fade show active" id="description" role="tabpanel"
                             aria-labelledby="description-tab">
                             <div class="content-block">
-                                <h3 class="title"></h3>
+                                <h3 class="title">{{ trans('translation.descriere') }}</h3>
                                 <p>{{ $prize->description }}</p>
                             </div><!-- content-block end -->
                         </div>
                         <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
                             <div class="content-block">
-                                <h3 class="title">Competition Details</h3>
+                                <h3 class="title">{{
+                                    trans('translation.detalii de concurs') }}</h3>
                                 <p>{{ $prize->details }}</p>
                             </div><!-- content-block end -->
                         </div>

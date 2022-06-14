@@ -83,13 +83,13 @@
                             style="min-height: 100px; padding-left:0 !important">
                             <div class="col-lg-6">
                                 <a href="{{ URL::route('contests') }}">
-                                    <img src="{{ URL::asset('assets/images/prize-images/bani.png') }}" alt="image"
-                                        style="width: 100px; height:100px;object-fit:cover">
+                                    <img src="{{ URL::asset('assets/images/prize-images/avion.png') }}" alt="image"
+                                        style="width: 100px; height:100px;object-fit:contain">
                                 </a>
                             </div>
                             <div class="col-lg-6">
                                 <a href="{{ URL::route('contests') }}">
-                                    <p style="text-transform: uppercase">{{ trans('translation.Bani') }}</p>
+                                    <p style="text-transform: uppercase">{{ trans('translation.vacante') }}</p>
                                 </a>
                             </div>
                         </div>

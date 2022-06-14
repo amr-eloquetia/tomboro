@@ -45,7 +45,8 @@
             </div>
             <div class="form-group">
                 <label>Category</label>
-                <input type="text" name="category_id" id="category_id" placeholder="category id">
+                <input type="text" name="category_id" id="category_id"
+                    placeholder="cars 1, bikes 2, phones 3, watches 4 , laptops 5, money 6">
             </div>
             <div class="form-group text-center mt-5">
                 <button type="submit" class="cmn-btn">Save</button>

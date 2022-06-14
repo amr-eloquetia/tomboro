@@ -68,7 +68,7 @@ return [
     'Suport dedicate' => 'Dedicated support',
     'Afiliați nelimitate' => 'Unlimited affiliates',
     'Acest concurs se încheie în' => 'This contest ends in',
-    'Intră acum pentru o șansă de a câștiga' => 'Enter now for a chance to win',
+    'Intră acum' => 'Enter now for a chance to win',
     'Acest concurs are un număr maxim de' => 'This contest has a maximum of',
     'intrari' => 'entries',
     'bilete vândute' => 'Tickets sold',
@@ -162,6 +162,7 @@ return [
     'politica de confidențialitate' => 'Privacy Policy',
     'login error' => 'Error: Wrong credentials Please check your email and password',
     'total concursuri' => 'Total contests',
+    'vacante' => 'Vacancies',
 
     //fair gambling
 

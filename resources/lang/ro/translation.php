@@ -68,7 +68,7 @@ return [
     'Suport dedicate' => 'Suport dedicat',
     'Afiliați nelimitate' => 'Afiliați nelimitate',
     'Acest concurs se încheie în' => 'Acest concurs se încheie în',
-    'Intră acum pentru o șansă de a câștiga' => 'Intră acum pentru o șansă de a câștiga',
+    'Intră acum' => 'Intră acum pentru o șansă de a câștiga',
     'Acest concurs are un număr maxim de' => 'Acest concurs are un număr maxim de',
     'intrari' => 'intrari',
     'bilete vândute' => 'Bilete vândute',
@@ -163,6 +163,7 @@ return [
     'politica de confidențialitate' => 'Confidențialitate',
     'login error' => 'Eroare: Credențiale greșite Vă rugăm să vă verificați e-mailul și parola',
     'total concursuri' => 'Total concursuri',
+    'vacante' => 'Vacanțe',
     //fair gambling
 
     'fair gambling page' => '<div class="row" style="display: flex; flex-direction:column">

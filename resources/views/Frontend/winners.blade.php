@@ -92,111 +92,48 @@
                                 </div>
                             </div>
                             <div class="col-lg-8 mb-30">
+                                @foreach ($winners as $winner)
                                 <div class="winner-card mb-30 rounded">
                                     <div class="winner-card__content col-lg-12">
                                         <div class="content-top text-center justify-content-center align-items-center">
                                             <div class="left">
-                                                <h5>The Breeze Zodiac IX</h5>
+                                                <h5>{{ $winner->name }}</h5>
                                             </div>
                                             <div class="right">
-                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data de')
+                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data
+                                                    de')
                                                     }}</span>
-                                                <p>Sambata, 20 Aprilie, 2022</p>
+                                                <p>{{ $winner->date }}</p>
                                             </div>
                                         </div>
                                         <div class="content-bottom text-center">
                                             <div class="left col-md-6">
                                                 <p>{{ trans('translation.Numerele castigatoare') }}:</p>
-                                                <h2>123456</h2>
+                                                <h2>{{ $winner->ticket_number }}</h2>
                                             </div>
                                             <div class="right col-md-6">
                                                 <p>#{{ trans('translation.Concurs') }}:</p>
-                                                <span class="contest-num">B2T</span>
+                                                <span class="contest-num">{{ $winner->prize_code }}</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div><!-- winner-card end -->
-                                <div class="winner-card mb-30 rounded">
-                                    <div class="winner-card__content col-lg-12">
-                                        <div class="content-top text-center justify-content-center align-items-center">
-                                            <div class="left">
-                                                <h5>The Breeze Zodiac IX</h5>
-                                            </div>
-                                            <div class="right">
-                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data de')
-                                                    }}</span>
-                                                <p>Sambata, 20 Aprilie, 2022</p>
-                                            </div>
-                                        </div>
-                                        <div class="content-bottom text-center">
-                                            <div class="left col-md-6">
-                                                <p>{{ trans('translation.Numerele castigatoare') }}:</p>
-                                                <h2>123456</h2>
-                                            </div>
-                                            <div class="right col-md-6">
-                                                <p>#{{ trans('translation.Concurs') }}:</p>
-                                                <span class="contest-num">B2T</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- winner-card end -->
-                                <div class="winner-card mb-30 rounded">
-                                    <div class="winner-card__content col-lg-12">
-                                        <div class="content-top text-center justify-content-center align-items-center">
-                                            <div class="left">
-                                                <h5>The Breeze Zodiac IX</h5>
-                                            </div>
-                                            <div class="right">
-                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data de')
-                                                    }}</span>
-                                                <p>Sambata, 20 Aprilie, 2022</p>
-                                            </div>
-                                        </div>
-                                        <div class="content-bottom text-center">
-                                            <div class="left col-md-6">
-                                                <p>{{ trans('translation.Numerele castigatoare') }}:</p>
-                                                <h2>123456</h2>
-                                            </div>
-                                            <div class="right col-md-6">
-                                                <p>#{{ trans('translation.Concurs') }}:</p>
-                                                <span class="contest-num">B2T</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- winner-card end -->
-                                <div class="winner-card mb-30 rounded">
-                                    <div class="winner-card__content col-lg-12">
-                                        <div class="content-top text-center justify-content-center align-items-center">
-                                            <div class="left">
-                                                <h5>The Breeze Zodiac IX</h5>
-                                            </div>
-                                            <div class="right">
-                                                <span>{{ trans('translation.Tragerea la sorti a avut loc in data de')
-                                                    }}</span>
-                                                <p>Sambata, 20 Aprilie, 2022</p>
-                                            </div>
-                                        </div>
-                                        <div class="content-bottom text-center">
-                                            <div class="left col-md-6">
-                                                <p>{{ trans('translation.Numerele castigatoare') }}:</p>
-                                                <h2>123456</h2>
-                                            </div>
-                                            <div class="right col-md-6">
-                                                <p>#{{ trans('translation.Concurs') }}:</p>
-                                                <span class="contest-num">B2T</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- winner-card end -->
+                                @endforeach
+
                                 <div class="btn-grp">
-                                    <a href="{{ URL::route('winners') }}" class="btn-border">Vezi Tot</a>
+                                    <a href="{{ URL::route('winners') }}" class="btn-border"><span>{{
+                                            trans('translation.Vezi tot') }}</span></a>
                                 </div>
+                            </div>
+                            <div class="btn-grp">
+                                <a href="{{ URL::route('winners') }}" class="btn-border">Vezi Tot</a>
                             </div>
                         </div>
                     </div>
-                </div><!-- tab-content end -->
-            </div>
-        </div><!-- row end -->
+                </div>
+            </div><!-- tab-content end -->
+        </div>
+    </div><!-- row end -->
     </div>
 </section>
 @include('Frontend.layouts.supportSection')

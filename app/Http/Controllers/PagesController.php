@@ -25,7 +25,10 @@ class PagesController extends Controller
     }
     public function winners()
     {
-        return view('Frontend.winners');
+        $winners = Winners::all();
+        $tickets = Tickets::all();
+        $prizes = Prizes::all();
+        return view('Frontend.winners', compact('winners','tickets','prizes'));
     }
     public function aboutUs()
     {

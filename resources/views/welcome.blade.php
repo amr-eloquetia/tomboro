@@ -97,14 +97,14 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="col-lg-12 m-2 d-flex align-items-center rounded bg-dark" style="min-height: 140px">
-                            <div class="col-lg-6">
+                        <div class="col-lg-12 m-2 d-flex align-items-center rounded bg-dark" style="height: 140px">
+                            <div class="col-lg-6 d-flex justify-content-center">
                                 <a href="{{ URL::route('contests') }}">
-                                    <img src="{{ URL::asset('assets/images/prize-images/motorcycle.png') }}"
-                                        alt="image">
+                                    <img src="{{ URL::asset('assets/images/prize-images/motorcycle.png') }}" alt="image"
+                                        style="max-width: 185px">
                                 </a>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 d-flex justify-content-center">
                                 <a href="{{ URL::route('contests') }}">
                                     <p style="text-transform: uppercase">{{ trans('translation.Motociclete') }}</p>
                                 </a>
@@ -112,13 +112,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="col-lg-12 m-2 d-flex align-items-center rounded bg-dark" style="min-height: 140px">
-                            <div class="col-lg-6">
+                        <div class="col-lg-12 m-2 d-flex align-items-center rounded bg-dark" style="height: 140px">
+                            <div class="col-lg-6 d-flex justify-content-center">
                                 <a href="{{ URL::route('contests') }}">
-                                    <img src="{{ URL::asset('assets/images/prize-images/car.png') }}" alt="image">
+                                    <img src="{{ URL::asset('assets/images/prize-images/car.png') }}" alt="image"
+                                        style="max-width: 185px">
                                 </a>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 d-flex justify-content-center">
                                 <a href="{{ URL::route('contests') }}">
                                     <p style="text-transform: uppercase">{{ trans('translation.Masini') }}</p>
                                 </a>

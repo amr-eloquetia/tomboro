@@ -20,7 +20,7 @@
                 <div class="contest-cart">
                     <h4 class="text-center text-warning col-md-12">{{ trans('translation.Intră acum') }}</h4>
 
-                    <h2 class="col-md-12 text-center">{{ $prize->name }}</h2>
+                    <h2 class="col-md-12 text-center mb-3">{{ $prize->name }}</h2>
 
                     <div class="contest-cart__left">
                         <div class="contest-cart__slider-area">

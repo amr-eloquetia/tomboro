@@ -124,9 +124,6 @@
                                             trans('translation.Vezi tot') }}</span></a>
                                 </div>
                             </div>
-                            <div class="btn-grp">
-                                <a href="{{ URL::route('winners') }}" class="btn-border">Vezi Tot</a>
-                            </div>
                         </div>
                     </div>
                 </div>

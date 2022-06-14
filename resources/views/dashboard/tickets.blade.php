@@ -9,7 +9,8 @@
 <a href="{{ route('get.generateTickets') }}">
     <button type="submit" class="btn btn-primary float-right mr-5">
         Generate Tickets
-    </button></a>
+    </button>
+</a>
 <table class="table">
     <thead>
         <tr>
@@ -32,16 +33,26 @@
             <td>{{ $ticket->availability }}</td>
             <td>{{ $ticket->prize_id }}</td>
             <td>{{ $ticket->owner_id }}</td>
-            <td>
-                <div style="display: flex;">
-                    <form method="POST" action="{{ route('delete.ticket', $ticket->id) }}">
+            <td style="display: flex; justify-content:space-between">
+                <div style=" display: flex;">
+                    <form method="POST" action="{{ route('delete.ticket', $ticket->id) }}" style="margin:0">
                         @csrf
                         <button type="submit" class="btn btn-danger btn-icon">
                             <i data-feather="delete">Delete</i>
                         </button>
                     </form>
                 </div>
+                <div style="display: flex;">
+                    <form method="POST" action="{{ route('delete.ticket.bulk', $ticket->prize_id) }}" style="margin:0">
+                        @csrf
+                        <button type="submit" class="btn btn-danger btn-icon">
+                            <i data-feather="delete">Delete bulk</i>
+                        </button>
+                    </form>
+                </div>
             </td>
+
+
         </tr>
         @endforeach
 
@@ -67,8 +78,14 @@
 
     }
 
+
     td,
     th {
         width: 12%;
+    }
+
+    .table td,
+    .table th {
+        padding: 4px !important;
     }
 </style>

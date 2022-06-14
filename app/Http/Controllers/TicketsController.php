@@ -204,4 +204,14 @@ class TicketsController extends Controller
 
         return redirect()->route('dashboard.tickets')->with('success', 'Ticket deleted');
     }
+
+    public function bulkDelete($prize_id)
+    {
+        $tickets = Tickets::where('prize_id', $prize_id)->get();
+        foreach ($tickets as $ticket) {
+            $ticket->delete();
+        }
+
+        return redirect()->route('dashboard.tickets')->with('success', 'Tickets deleted');
+    }
 }

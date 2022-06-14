@@ -85,6 +85,7 @@ Route::group(['prefix' => '/admin', 'middleware' => 'auth'], function () {
     Route::get('/dashboard/generateTickets}', [DashboardController::class, 'generateTickets'])->name('get.generateTickets');
     Route::post('/dashboard/generateTickets}', [TicketsController::class, 'create'])->name('post.generateTickets');
     Route::post('/dashboard/deleteTicket/{id}', [TicketsController::class, 'destroy'])->name('delete.ticket');
+    Route::post('/dashboard/deleteTickets/{prize_id}', [TicketsController::class, 'bulkDelete'])->name('delete.ticket.bulk');
     Route::post('/dashboard/winners', [TicketsController::class, 'search'])->name('search.ticket');
     Route::get('/dashboard/createWinner', [DashboardController::class, 'createWinner'])->name('dashboard.createWinner');
     Route::post('/dashboard/createWinner', [WinnersController::class, 'create'])->name('post.createWinner');

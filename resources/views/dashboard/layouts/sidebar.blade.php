@@ -1,10 +1,10 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link text-center">
-        {{-- <img src="{{asset('img/favicon.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-            style="opacity: .8">--}}
-        <span class="brand-text font-weight-light">Dashboard</span>
+    <a href="{{ route('home') }}" class="brand-link text-center d-flex justify-content-center">
+        <img src="{{URL::asset('assets/images/favicon.png')}}" alt="AdminLTE Logo"
+            style="opacity: .8; max-height:24px; margin-right:5px">
+        <span class="brand-text font-weight-light">Tomboro</span>
     </a>
 
     <!-- Sidebar -->
@@ -81,14 +81,14 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item mt-5">
+                {{-- <li class="nav-item mt-5">
                     <a href="{{route('logout')}}" class="nav-link text-warning">
                         <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>
                             Logout
                         </p>
                     </a>
-                </li>
+                </li> --}}
                 <li><a>
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf

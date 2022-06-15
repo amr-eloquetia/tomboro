@@ -55,24 +55,30 @@ class PrizesController extends Controller
 
         $data['active'] = true;
         $prize = Prizes::create($data);
-        // if ($images = $request->file('images')) {
-        //     foreach ($images as $key => $image) {
-        //         $name = Str::uuid() . $image->getClientOriginalName();
-        //         Storage::put("public/prize_images/$name", $image->getContent());
-        //         $media = Media::create([
-        //             'path' => "prize_images/$name",
-        //             'prize_id' => $prize->id,
-        //             'priority' => $key
-        //         ]);
-        //     }
-        // }
-        $name = $request->file('images')->getClientOriginalName();
-        $path = $request->file('images')->storeAs('public/prize_images', $name);
-        $media = Media::create([
-            'path' => "prize_images/$name",
-            'prize_id' => $prize->id
-        ]);
-        $media->save();
+
+        $images = array();
+        $images = $request->file('images');
+        if ($request->hasFile('images')) {
+            foreach ($images as $image) {
+                $imageName = $image->getClientOriginalName();
+                $path = $image->storeAs('public/prize_images', $imageName);
+                $media = Media::create([
+                    'path' => 'prize_images/'.$imageName,
+                    'prize_id' => $prize->id,
+                    'priority' => 0,
+                    'type' => 'photo'
+                ]);
+            $media->save();
+
+            }
+        }
+
+        // $name = $request->file('images')->getClientOriginalName();
+        // $path = $request->file('images')->storeAs('public/prize_images', $name);
+        // $media = Media::create([
+        //     'path' => "prize_images/$name",
+        //     'prize_id' => $prize->id
+        // ]);
 
         $prize->name = $data['name'];
         $prize->prize_code = $data['prize_code'];

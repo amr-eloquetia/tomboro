@@ -30,20 +30,17 @@
                                         alt="image">
                                 </div>
                                 @endforeach
+                                @foreach ($prize->medias as $media)
                                 <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
-                                        alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
-                                        alt="image"></div>
+                                @endforeach
+
                             </div><!-- contest-cart__thumb-slider end -->
                             <div class="contest-cart__nav-slider">
+                                @foreach ($prize->medias as $media)
                                 <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
                                         alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
-                                        alt="image"></div>
-                                <div class="single-slide"><img src="{{ URL::asset('storage/' .$media->path)}}"
-                                        alt="image"></div>
+                                @endforeach
                             </div><!-- contest-cart__nav-slider end -->
                         </div>
                     </div><!-- contest-cart__left end -->

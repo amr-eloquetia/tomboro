@@ -6418,7 +6418,7 @@ span.is-active:after {
 .contest-cart__nav-slider .slick-arrow {
     width: 40px;
     height: 40px;
-    background-color: #5a4bcc;
+    background-color: #cd5050;
     color: #ffffff;
     font-size: 24px;
     display: flex;
@@ -6437,9 +6437,9 @@ span.is-active:after {
 }
 
 .contest-cart__nav-slider .slick-arrow:hover {
-    background-image: -moz-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
-    background-image: -webkit-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
-    background-image: -ms-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
+    background-image: -moz-linear-gradient(7deg, #cd5050 0%, #db1072 100%);
+    background-image: -webkit-linear-gradient(7deg, #cd5050 0%, #db1072 100%);
+    background-image: -ms-linear-gradient(7deg, #cd5050 0%, #db1072 100%);
 }
 
 .contest-cart__nav-slider .slick-arrow.next {
@@ -6647,9 +6647,9 @@ span.is-active:after {
 }
 
 .contest-description .nav-tabs .nav-item .cmn-btn.active {
-    background-image: -moz-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
-    background-image: -webkit-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
-    background-image: -ms-linear-gradient(7deg, #ec1379 0%, #6c0092 100%);
+    background-image: -moz-linear-gradient(0deg, #cd5050 0%, #db1072 100%);
+    background-image: -webkit-linear-gradient(0deg, #cd5050 0%, #db1072 100%);
+    background-image: -ms-linear-gradient(0deg, #cd5050 0%, #db1072 100%);
 }
 
 .content-block .title {

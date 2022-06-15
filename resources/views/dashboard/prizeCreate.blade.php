@@ -11,7 +11,7 @@
             <div class="form-group">
                 <label>Media</label>
                 <div class="avatar-edit">
-                    <input type='file' name='images' id="imageUpload" />
+                    <input type='file' name='images[]' id="imageUpload" multiple />
                     <label for="imageUpload"></label>
                 </div>
             </div>

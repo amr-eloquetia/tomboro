@@ -149,7 +149,7 @@ return [
     'suma' => 'Amount',
     'termeni si conditii' => 'Terms and conditions',
     'Luați legătura' => 'Contact our friendly customer support',
-    'suport clienți' => 'Customer support',
+    'suport clienti' => 'Customer support',
     'Aveți o întrebare?' => 'Do you have a question or need help? Contact our friendly support team.',
     'Discutați cu echipa noastră de asistență' => 'Talk to our support team',
     'Aveți o întrebare despre concursuri?' => 'Do you have a question about contests?',
